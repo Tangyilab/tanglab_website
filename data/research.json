@@ -1,0 +1,25 @@
+{
+  "intro": "Our research is dedicated to the in-depth study of Alzheimer's disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies. We integrate molecular biology, biochemistry, bioinformatics, electrophysiology, and behavioral analysis, and combine animal models, human cell models, neuroimaging, and epidemiology to advance both the scientific understanding and the clinical application of cognitive disorders.",
+  "areas": [
+    {
+      "icon": "🧬",
+      "title": "Pathogenesis of Alzheimer's Disease",
+      "desc": "Using animal models and human cell models together with advanced molecular biology techniques to comprehensively investigate the molecular mechanisms underlying Alzheimer's disease."
+    },
+    {
+      "icon": "⚡",
+      "title": "Non-Pharmacological Intervention",
+      "desc": "Exploring cognitive training and transcranial electrical stimulation for their efficacy and the underlying neural mechanisms in improving cognitive function."
+    },
+    {
+      "icon": "📊",
+      "title": "Electrophysiology & Early Diagnosis",
+      "desc": "Employing neuro-electrophysiological and perceptual technologies to discover new avenues for the early diagnosis and treatment of cognitive disorders."
+    },
+    {
+      "icon": "🌏",
+      "title": "Nationwide Multicenter Cognitive Cohort",
+      "desc": "Conducting a nationwide multicenter cognitive cohort study to reveal the epidemiological characteristics and disease burden of cognitive disorders in China."
+    }
+  ]
+}

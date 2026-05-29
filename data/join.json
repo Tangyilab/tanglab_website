@@ -1,0 +1,52 @@
+{
+  "intro": "The Tang Lab is affiliated with the Chinese Institute for Brain Research, Beijing (CIBR) and the Department of Neurology, Xuanwu Hospital, Capital Medical University. We are continuously looking for motivated researchers passionate about Alzheimer's disease and cognitive disorders to join our interdisciplinary team.",
+  "positions": [
+    {
+      "role": "Postdoctoral Fellows",
+      "summary": "We welcome postdoctoral applicants with a background in neuroscience, molecular biology, bioinformatics, or clinical neurology to lead research on the mechanisms, early diagnosis, and intervention of Alzheimer's disease and cognitive disorders.",
+      "requirements": [
+        "Ph.D. (or near completion) in neuroscience, biology, medicine, or a related field",
+        "Strong publication record and independent research ability",
+        "Experience in molecular biology, electrophysiology, neuroimaging, or computational analysis is a plus"
+      ]
+    },
+    {
+      "role": "Laboratory Technician",
+      "summary": "Support wet-lab operations and behavioral experiments within the lab.",
+      "requirements": [
+        "Bachelor's degree or above",
+        "Proficiency in mouse experiments and behavioral assays preferred",
+        "Strong hands-on skills, high experimental success rate, and quick to master new techniques",
+        "Responsible, efficient, and meticulous; able to commit for two or more years preferred"
+      ]
+    },
+    {
+      "role": "Research Assistant",
+      "summary": "Contribute to research projects spanning wet-lab and computational work.",
+      "requirements": [
+        "Bachelor's degree or above",
+        "Strong bioinformatics background with the ability to independently analyze single-cell sequencing data preferred",
+        "Some wet-lab experience with strong learning and hands-on ability",
+        "Responsible, enthusiastic, and proactive; able to commit for two or more years preferred"
+      ]
+    },
+    {
+      "role": "Intern & Graduate Students",
+      "summary": "We welcome motivated undergraduate and graduate students interested in research internships and degree projects in Alzheimer's disease and cognitive disorders.",
+      "requirements": [
+        "Currently enrolled undergraduate or graduate student",
+        "Strong interest in neuroscience and cognitive disorders research",
+        "Self-motivated and able to dedicate consistent time to the lab"
+      ]
+    }
+  ],
+  "benefits": [
+    "Competitive salary based on experience and ability",
+    "Full social insurance and housing fund ('five insurances and one fund')",
+    "Assistance with housing arrangements",
+    "Supplementary medical insurance, publicly funded health check-ups, and paid leave"
+  ],
+  "location": "Chinese Institute for Brain Research, Beijing — Building 3, No. 9 Yikuang Street, Zhongguancun Life Science Park, Changping District, Beijing",
+  "apply": "Please send your CV and supporting materials in PDF format to the emails below, with the subject line \"Name + Position\".",
+  "emails": ["tangyi@cibr.ac.cn", "chenouyang@cibr.ac.cn"]
+}

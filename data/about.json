@@ -1,0 +1,44 @@
+{
+  "lab": {
+    "tagline": "Early Diagnosis and Intervention of Alzheimer's Disease and Vascular Cognitive Impairment",
+    "intro": "Yi Tang's laboratory focuses on understanding the complex nature of Alzheimer's Disease (AD) and Vascular Cognitive Impairment (VCI). Our research integrates molecular biology, biochemistry, bioinformatics, electrophysiology, and behavioral analysis to uncover disease mechanisms and to develop strategies for early diagnosis and intervention.",
+    "affiliation": "Department of Neurology, Xuanwu Hospital, Capital Medical University, Beijing, China"
+  },
+  "pi": {
+    "name": "Yi Tang, MD, PhD",
+    "title": "Chief Neurologist, Professor in Neurology",
+    "affiliation": "Department of Neurology, Xuanwu Hospital, Capital Medical University, Beijing, China",
+    "email": "tangyi@xwhosp.org",
+    "phone": "+86 138 1102 1432",
+    "photo": "assets/people/yi-tang.jpeg",
+    "bio": "Prof. Yi Tang received his Ph.D. and M.D. from Peking Union Medical College and conducted postdoctoral research at Cornell University Medical College. He is now the Executive Vice Dean of Xuanwu Hospital, Capital Medical University. Prof. Tang is dedicated to advancing research on Alzheimer's disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
+    "education": [
+      {"period": "2007–08", "detail": "Postdoctoral Associate, Dept. of Neurology and Neuroscience, NewYork-Presbyterian Hospital, Cornell University Medical College"},
+      {"period": "2004–06", "detail": "M.D., Peking Union Medical College Hospital, Peking Union Medical College (PUMC)"},
+      {"period": "2001–04", "detail": "Ph.D., Institute of Basic Medical Sciences, PUMC"},
+      {"period": "2001–06", "detail": "M.D.–Ph.D. program in PUMC, supported by China Medical Board (CMB)"},
+      {"period": "1995–2001", "detail": "B.M., Seven-year medical program, Medical School, Shandong University (SDU)"}
+    ],
+    "positions": [
+      {"period": "2024–present", "detail": "Executive Vice Dean, Xuanwu Hospital, Capital Medical University"},
+      {"period": "2021–present", "detail": "Executive Deputy Director, National Center for Neurological Disorders"},
+      {"period": "2020–present", "detail": "Professor in Neurology, Department of Neurology, Xuanwu Hospital, Capital Medical University"},
+      {"period": "2019–present", "detail": "Chief Neurologist, Department of Neurology, Xuanwu Hospital, Capital Medical University"},
+      {"period": "2017–present", "detail": "Deputy Director, Key Laboratory of Neurodegenerative Diseases, Ministry of Education"},
+      {"period": "2016–20", "detail": "Associate Professor, Department of Neurology, Xuanwu Hospital, Capital Medical University"},
+      {"period": "2014–19", "detail": "Associate Chief Neurologist, Department of Neurology, Xuanwu Hospital, Capital Medical University"},
+      {"period": "2009–14", "detail": "Attending Neurologist, Department of Neurology, Xuanwu Hospital, Capital Medical University"},
+      {"period": "2006–09", "detail": "Residency in Neurology, Department of Neurology, Xuanwu Hospital, Capital Medical University"}
+    ],
+    "memberships": [
+      {"period": "2021–present", "detail": "President, National Center for Cognitive Disorders, National Health Commission of the PRC"},
+      {"period": "2017–present", "detail": "Vice President, Youth Committee, Chinese Neurologist Association"},
+      {"period": "2017–present", "detail": "Vice President, Youth Committee, Chinese Society of Neurology"},
+      {"period": "2016–19", "detail": "Program Chair, Non-Pharmacological Intervention PIA, Alzheimer's Association"},
+      {"period": "2021–present", "detail": "Senior Editor, Journal of Alzheimer's Disease"},
+      {"period": "2023–present", "detail": "Review Editor, Alzheimer's & Dementia"},
+      {"period": "2016–22", "detail": "Senior Associate Editor, Alzheimer's & Dementia"},
+      {"period": "2007–2009", "detail": "Member, New York Academy of Sciences"}
+    ]
+  }
+}
