@@ -30,7 +30,7 @@ function renderChrome() {
   f.innerHTML = `<div class="wrap">
     <div style="max-width:340px">
       <h5>Tang Lab</h5>
-      <p style="font-size:14px;line-height:1.7">Early diagnosis and intervention of Alzheimer's Disease and Vascular Cognitive Impairment.</p>
+      <p style="font-size:14px;line-height:1.7">Early diagnosis and intervention of Alzheimer's disease and vascular cognitive impairment.</p>
     </div>
     <div>
       <h5>Affiliation</h5>
@@ -73,7 +73,7 @@ function renderAbout() {
         <div class="name">${esc(pi.name)}</div>
         <div class="ti">${esc(pi.title)}</div>
         <div class="meta">${esc(pi.affiliation)}</div>
-        <div class="meta">✉ <a href="mailto:${esc(pi.email)}">${esc(pi.email)}</a> &nbsp; ☎ ${esc(pi.phone)}</div>
+        <div class="meta">✉ <a href="mailto:${esc(pi.email)}">${esc(pi.email)}</a></div>
         <p class="bio">${esc(pi.bio)}</p>
       </div>
     </div>
@@ -97,11 +97,11 @@ const SECTION_ORDER = [
   ["Student", "Students"],
   ["Research Assistant", "Research Assistants"],
 ];
-function personCard(p) {
+function personCard(p, horizontal) {
   const initials = (p.name || "?").split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpperCase();
   const img = p.photo ? `<img class="ph ph-img" src="assets/people/${esc(p.photo)}" alt="${esc(p.name)}" onerror="this.remove()">` : "";
   const email = p.email ? `<div class="em">✉ <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></div>` : "";
-  return `<div class="person"><div class="ph-wrap"><div class="ph ph-ph">${initials}</div>${img}</div>
+  return `<div class="person${horizontal ? " horizontal" : ""}"><div class="ph-wrap"><div class="ph ph-ph">${initials}</div>${img}</div>
     <div class="body">
     <div class="nm">${esc(p.name)}</div>
     <div class="ex">${esc(p.experience || "")}</div>${email}</div></div>`;
@@ -109,27 +109,42 @@ function personCard(p) {
 function renderPeople() {
   const root = $("#people-root");
   let html = "";
+  const SORT_ALPHA = new Set(["Postdoc", "Student", "Research Assistant"]);
+  const HORIZONTAL = new Set(["PI", "Faculty"]);
   for (const [key, label] of SECTION_ORDER) {
     const members = D.people.filter(p => p.section === key);
     if (!members.length) continue;
-    const cols = key === "PI" ? "g3" : "g4";
+    if (SORT_ALPHA.has(key)) members.sort((a, b) => a.name.localeCompare(b.name));
+    const horizontal = HORIZONTAL.has(key);
+    const gridClass = key === "PI" ? "grid-horizontal grid-pi"
+      : key === "Faculty" ? "grid-horizontal"
+      : "grid g4";
     html += `<div class="people-group"><h3>${label} <span style="color:var(--muted);font-weight:500;font-size:15px">(${members.length})</span></h3>
-      <div class="grid ${cols}">${members.map(personCard).join("")}</div></div>`;
+      <div class="${gridClass}">${members.map(p => personCard(p, horizontal)).join("")}</div></div>`;
   }
   root.innerHTML = html;
 }
 
 /* ---------- PUBLICATIONS ---------- */
-function fmtCitation(c) {
-  // bold "Tang Y" author and the corresponding/last-author occurrences
-  return esc(c).replace(/(Tang Y)\b/g, "<b>$1</b>");
+function fmtCitation(p) {
+  // Build "Authors. Title. Journal" with every author shown and Tang Y bolded.
+  if (p.authors && p.authors.length) {
+    const authors = p.authors
+      .map(n => /^Tang Y/i.test(n) ? `<b>${esc(n)}</b>` : esc(n))
+      .join(", ");
+    const title = esc((p.title || "").replace(/\.$/, ""));
+    const journal = esc(p.journal || "");
+    return `${authors}. <span class="pub-title">${title}.</span> ${journal}`;
+  }
+  // fallback: raw citation with Tang Y bolded
+  return esc(p.citation).replace(/(Tang Y)\b/g, "<b>$1</b>");
 }
 function renderPublications() {
   const pubs = D.publications;
   const years = [...new Set(pubs.map(p => p.year).filter(Boolean))].sort((a, b) => b - a);
   const yearSel = $("#pub-year");
   yearSel.innerHTML = `<option value="">All years</option>` + years.map(y => `<option value="${y}">${y}</option>`).join("");
-  const box = $("#pub-list"), count = $("#pub-count"), search = $("#pub-search");
+  const box = $("#pub-list"), count = $("#pub-count"), search = $("#pub-search"), index = $("#pub-index");
 
   function draw() {
     const q = search.value.trim().toLowerCase();
@@ -138,16 +153,39 @@ function renderPublications() {
       (!fy || String(p.year) === fy) &&
       (!q || p.citation.toLowerCase().includes(q)));
     count.textContent = `${list.length} publication${list.length !== 1 ? "s" : ""}`;
+    const shownYears = [];
     let html = "", cur = null;
     for (const p of list) {
-      if (p.year !== cur) { cur = p.year; html += `<div class="pub-year">${cur || "Other"}</div>`; }
+      if (p.year !== cur) {
+        cur = p.year;
+        const y = cur || "Other";
+        shownYears.push(y);
+        html += `<div class="pub-year" id="year-${y}">${y}</div>`;
+      }
       const links = [];
-      if (p.doi) links.push(`<a href="https://doi.org/${encodeURIComponent(p.doi)}" target="_blank" rel="noopener">DOI</a>`);
       if (p.pmid) links.push(`<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(p.pmid)}/" target="_blank" rel="noopener">PubMed</a>`);
-      html += `<div class="pub">${fmtCitation(p.citation)}${links.length ? `<div class="links">${links.join("")}</div>` : ""}</div>`;
+      if (p.doi) links.push(`<a href="https://doi.org/${encodeURIComponent(p.doi)}" target="_blank" rel="noopener">DOI</a>`);
+      html += `<div class="pub">${fmtCitation(p)}${links.length ? `<div class="links">${links.join("")}</div>` : ""}</div>`;
     }
     box.innerHTML = html || `<p class="lead">No matching publications.</p>`;
+    // year index (reflects currently visible years)
+    index.innerHTML = shownYears.length > 1
+      ? shownYears.map(y => `<a href="#year-${y}" data-year="${y}">${y}</a>`).join("")
+      : "";
   }
+
+  // smooth-scroll with offset for the sticky nav, without leaving a #hash
+  index.addEventListener("click", (e) => {
+    const a = e.target.closest("a[data-year]");
+    if (!a) return;
+    e.preventDefault();
+    const el = document.getElementById("year-" + a.dataset.year);
+    if (el) {
+      const y = el.getBoundingClientRect().top + window.pageYOffset - 76;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  });
+
   search.oninput = draw; yearSel.onchange = draw;
   draw();
 }
@@ -169,19 +207,30 @@ function renderNews() {
   }).join("");
 }
 
-/* ---------- JOIN ---------- */
+/* ---------- JOIN (bilingual: English primary, Chinese secondary) ---------- */
 function renderJoin() {
   const j = D.join;
-  $("#join-intro").textContent = j.intro;
+  $("#join-intro").innerHTML =
+    `<span class="lead" style="display:block;margin-bottom:6px">${esc(j.intro_en)}</span>
+     <span class="zh">${esc(j.intro_zh)}</span>`;
   $("#join-positions").innerHTML = j.positions.map(p =>
-    `<div class="join-pos"><h4>${esc(p.role)}</h4><p style="color:var(--muted)">${esc(p.summary)}</p>
-     <ul>${p.requirements.map(r => `<li>${esc(r)}</li>`).join("")}</ul></div>`).join("");
+    `<div class="join-pos">
+       <h4>${esc(p.role_en)} <span class="zh-inline">${esc(p.role_zh)}</span></h4>
+       <p style="color:var(--muted)">${esc(p.summary_en)}</p>
+       <p class="zh">${esc(p.summary_zh)}</p>
+       <ul>${p.requirements_en.map((r, i) =>
+         `<li>${esc(r)}${p.requirements_zh[i] ? `<span class="zh">${esc(p.requirements_zh[i])}</span>` : ""}</li>`).join("")}</ul>
+     </div>`).join("");
   $("#join-extra").innerHTML =
-    `<h3>Benefits</h3><ul style="color:var(--muted);margin-left:20px">${j.benefits.map(b => `<li>${esc(b)}</li>`).join("")}</ul>
+    `<h3>Benefits <span class="zh-inline">福利待遇</span></h3>
+     <ul style="color:var(--muted);margin-left:20px">${j.benefits_en.map((b, i) =>
+       `<li>${esc(b)}${j.benefits_zh[i] ? `<span class="zh">${esc(j.benefits_zh[i])}</span>` : ""}</li>`).join("")}</ul>
      <div class="callout">
-       <p><b>📍 Location:</b> ${esc(j.location)}</p>
-       <p style="margin-top:10px"><b>📩 How to apply:</b> ${esc(j.apply)}</p>
-       <p style="margin-top:6px">${j.emails.map(e => `<a href="mailto:${esc(e)}">${esc(e)}</a>`).join(" &nbsp;·&nbsp; ")}</p>
+       <p><b>📍 Location · 工作地点:</b> ${esc(j.location_en)}</p>
+       <p class="zh" style="margin-top:2px">${esc(j.location_zh)}</p>
+       <p style="margin-top:12px"><b>📩 How to apply · 申请方式:</b> ${esc(j.apply_en)}</p>
+       <p class="zh" style="margin-top:2px">${esc(j.apply_zh)}</p>
+       <p style="margin-top:8px">${j.emails.map(e => `<a href="mailto:${esc(e)}">${esc(e)}</a>`).join(" &nbsp;·&nbsp; ")}</p>
      </div>`;
 }
 

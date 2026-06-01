@@ -83,9 +83,18 @@ h3{color:var(--blue-d);font-size:20px;margin:26px 0 12px;}
 .person .nm{font-weight:700;color:var(--blue-d);font-size:16px;}
 .person .ex{color:var(--muted);font-size:13.5px;margin:6px 0 10px;min-height:38px;}
 .person .em{font-size:13px;word-break:break-all;}
-.person.pi{display:grid;grid-template-columns:200px 1fr;gap:0;}
-.person.pi .ph{aspect-ratio:auto;height:100%;}
-@media(max-width:560px){.person.pi{grid-template-columns:1fr;}}
+/* horizontal layout for PI / Faculty: photo left, info right */
+.grid-horizontal{display:grid;grid-template-columns:1fr;gap:20px;}
+/* Faculty: two per row on wider screens */
+@media(min-width:760px){.grid-horizontal{grid-template-columns:repeat(2,1fr);}}
+/* PI: always full width (single column), overriding the 2-col rule above */
+.grid-horizontal.grid-pi{grid-template-columns:1fr;}
+.person.horizontal{display:grid;grid-template-columns:160px 1fr;}
+.person.horizontal .ph-wrap{aspect-ratio:auto;height:100%;min-height:180px;}
+.person.horizontal .body{padding:20px 22px;display:flex;flex-direction:column;justify-content:center;}
+.person.horizontal .nm{font-size:18px;}
+.person.horizontal .ex{font-size:14px;min-height:auto;margin:8px 0 10px;}
+@media(max-width:460px){.person.horizontal{grid-template-columns:1fr;}.person.horizontal .ph-wrap{aspect-ratio:1/1;}}
 
 /* ---- PI / About ---- */
 .pi-card{display:grid;grid-template-columns:260px 1fr;gap:30px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px;}
@@ -102,13 +111,20 @@ h3{color:var(--blue-d);font-size:20px;margin:26px 0 12px;}
 @media(max-width:620px){.pi-card{grid-template-columns:1fr;}}
 
 /* ---- Publications ---- */
+.scholar-banner{display:flex;gap:12px;align-items:flex-start;background:var(--sky);border:1px solid #cfe2f6;border-radius:12px;padding:14px 18px;margin-bottom:22px;font-size:14.5px;color:var(--blue-d);line-height:1.6;}
+.scholar-banner .si{font-size:18px;line-height:1.4;}
+.scholar-banner a{font-weight:700;}
 .pub-tools{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px;align-items:center;}
 .pub-tools input,.pub-tools select{padding:10px 14px;border:1px solid var(--line);border-radius:10px;font-size:14.5px;font-family:inherit;}
 .pub-tools input{flex:1;min-width:220px;}
 .pub-count{color:var(--muted);font-size:14px;}
-.pub-year{margin:26px 0 12px;color:var(--blue);font-weight:800;font-size:20px;border-bottom:2px solid var(--sky);padding-bottom:6px;}
+.pub-index{position:sticky;top:64px;z-index:20;display:flex;flex-wrap:wrap;gap:8px;padding:14px 0;margin-bottom:8px;background:var(--bg);border-bottom:1px solid var(--line);}
+.pub-index a{font-size:13px;font-weight:600;color:var(--blue);background:var(--sky);padding:5px 12px;border-radius:999px;text-decoration:none;transition:background .15s,color .15s;}
+.pub-index a:hover{background:var(--blue);color:#fff;}
+.pub-year{scroll-margin-top:120px;margin:26px 0 12px;color:var(--blue);font-weight:800;font-size:20px;border-bottom:2px solid var(--sky);padding-bottom:6px;}
 .pub{padding:14px 0;border-bottom:1px solid var(--line);font-size:14.8px;line-height:1.7;}
 .pub b{color:var(--blue-d);}
+.pub .pub-title{font-weight:600;color:var(--ink);}
 .pub .links{margin-top:4px;}
 .pub .links a{font-size:13px;margin-right:12px;}
 
@@ -129,6 +145,10 @@ h3{color:var(--blue-d);font-size:20px;margin:26px 0 12px;}
 .join-pos ul{margin:10px 0 0 20px;color:var(--muted);font-size:14.5px;}
 .callout{background:var(--sky);border:1px solid #cfe2f6;border-radius:14px;padding:24px;margin-top:24px;}
 .callout b{color:var(--blue-d);}
+/* bilingual: Chinese text shown as a secondary line under English */
+.zh{display:block;color:var(--muted);font-size:13.5px;line-height:1.7;margin-top:3px;opacity:.92;}
+.join-pos li .zh{margin-bottom:8px;}
+.zh-inline{color:var(--accent);font-weight:500;font-size:.82em;margin-left:6px;}
 
 /* ---- Footer ---- */
 .footer{background:var(--blue-d);color:#c5d6ea;padding:40px 24px 28px;margin-top:40px;}
