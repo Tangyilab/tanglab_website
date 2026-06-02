@@ -94,17 +94,17 @@ h3{color:var(--blue-d);font-size:20px;margin:26px 0 12px;}
 @media(min-width:760px){.grid-horizontal{grid-template-columns:repeat(2,1fr);}}
 /* PI: always full width (single column), overriding the 2-col rule above */
 .grid-horizontal.grid-pi{grid-template-columns:1fr;}
-.person.horizontal{display:grid;grid-template-columns:160px 1fr;}
-.person.horizontal .ph-wrap{aspect-ratio:auto;height:100%;min-height:180px;}
-.person.horizontal .body{padding:20px 22px;display:flex;flex-direction:column;justify-content:center;}
+/* PI + Faculty share one uniform card height; long content scrolls inside */
+.person.horizontal{display:grid;grid-template-columns:200px 1fr;height:300px;}
+.person.horizontal .ph-wrap{aspect-ratio:auto;height:300px;}
+.person.horizontal .body{padding:20px 22px;display:flex;flex-direction:column;justify-content:center;overflow-y:auto;}
 .person.horizontal .nm{font-size:18px;}
 .person.horizontal .ex{font-size:14px;min-height:auto;margin:8px 0 10px;}
-@media(max-width:460px){.person.horizontal{grid-template-columns:1fr;}.person.horizontal .ph-wrap{aspect-ratio:1/1;}}
-/* Faculty cards: uniform height; long experience lists scroll inside the card */
-.person.faculty-card{height:300px;}
-.person.faculty-card .ph-wrap{height:300px;}
-.person.faculty-card .body{overflow-y:auto;justify-content:flex-start;}
-@media(max-width:460px){.person.faculty-card,.person.faculty-card .ph-wrap{height:auto;}.person.faculty-card .body{overflow:visible;}}
+@media(max-width:460px){
+  .person.horizontal{grid-template-columns:1fr;height:auto;}
+  .person.horizontal .ph-wrap{aspect-ratio:1/1;height:auto;}
+  .person.horizontal .body{overflow:visible;}
+}
 
 /* ---- PI / About ---- */
 .pi-card{display:grid;grid-template-columns:260px 1fr;gap:30px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px;}
