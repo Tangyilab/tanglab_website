@@ -299,7 +299,7 @@ window.DATA = {
           ]
         },
         {
-          "heading": "Experience",
+          "heading": "Education Experience",
           "items": [
             "Ph.D., Duke University"
           ]
