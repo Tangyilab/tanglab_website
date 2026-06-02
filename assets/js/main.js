@@ -126,8 +126,7 @@ function renderPeople() {
     if (!members.length) continue;
     if (SORT_ALPHA.has(key)) members.sort((a, b) => a.name.localeCompare(b.name));
     const horizontal = HORIZONTAL.has(key);
-    const gridClass = key === "PI" ? "grid-horizontal grid-pi"
-      : key === "Faculty" ? "grid-horizontal"
+    const gridClass = (key === "PI" || key === "Faculty") ? "grid-horizontal grid-pi"
       : "grid g4";
     html += `<div class="people-group"><h3>${label} <span style="color:var(--muted);font-weight:500;font-size:15px">(${members.length})</span></h3>
       <div class="${gridClass}">${members.map(p => personCard(p, horizontal)).join("")}</div></div>`;
