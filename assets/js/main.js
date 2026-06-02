@@ -62,9 +62,12 @@ function renderHome() {
 /* ---------- ABOUT ---------- */
 function renderAbout() {
   const a = D.about, pi = a.pi;
+  const affs = a.lab.affiliations || (a.lab.affiliation ? [a.lab.affiliation] : []);
+  const affLabel = affs.length > 1 ? "Affiliations" : "Affiliation";
   $("#lab-block").innerHTML =
     `<p class="lead">${esc(a.lab.intro)}</p>
-     <p style="color:var(--muted)"><b>Affiliation:</b> ${esc(a.lab.affiliation)}</p>`;
+     <p style="color:var(--muted)"><b>${affLabel}:</b></p>
+     <ul style="color:var(--muted);margin:4px 0 0 20px">${affs.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
   const tl = (arr) => `<ul class="timeline">${arr.map(i => `<li><div class="per">${esc(i.period)}</div><div class="det">${esc(i.detail)}</div></li>`).join("")}</ul>`;
   $("#pi-block").innerHTML =
     `<div class="pi-card">

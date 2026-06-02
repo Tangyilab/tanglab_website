@@ -4,7 +4,10 @@ window.DATA = {
     "lab": {
       "tagline": "Early diagnosis and intervention of Alzheimer's disease and vascular cognitive impairment",
       "intro": "Yi Tang's laboratory focuses on understanding the complex nature of Alzheimer's disease (AD) and vascular cognitive impairment (VCI). Our research integrates molecular biology, biochemistry, bioinformatics, electrophysiology, and behavioral analysis to uncover disease mechanisms and to develop strategies for early diagnosis and intervention.",
-      "affiliation": "Department of Neurology, Xuanwu Hospital, Capital Medical University, Beijing, China"
+      "affiliations": [
+        "Department of Neurology, Xuanwu Hospital, Capital Medical University, Beijing, China",
+        "Chinese Institute for Brain Research, Beijing (CIBR)"
+      ]
     },
     "pi": {
       "name": "Yi Tang, MD, PhD",
