@@ -101,10 +101,20 @@ function personCard(p, horizontal) {
   const initials = (p.name || "?").split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpperCase();
   const img = p.photo ? `<img class="ph ph-img" src="assets/people/${esc(p.photo)}" alt="${esc(p.name)}" onerror="this.remove()">` : "";
   const email = p.email ? `<div class="em">✉ <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></div>` : "";
+  // structured multi-section experience (e.g. Faculty with Education / Positions)
+  let body;
+  if (p.details && p.details.length) {
+    body = p.details.map(sec =>
+      `<div class="ex-sec"><div class="ex-h">${esc(sec.heading)}</div>` +
+      `<ul class="ex-list">${sec.items.map(it => `<li>${esc(it)}</li>`).join("")}</ul></div>`
+    ).join("");
+  } else {
+    body = `<div class="ex">${esc(p.experience || "")}</div>`;
+  }
   return `<div class="person${horizontal ? " horizontal" : ""}"><div class="ph-wrap"><div class="ph ph-ph">${initials}</div>${img}</div>
     <div class="body">
     <div class="nm">${esc(p.name)}</div>
-    <div class="ex">${esc(p.experience || "")}</div>${email}</div></div>`;
+    ${body}${email}</div></div>`;
 }
 function renderPeople() {
   const root = $("#people-root");
@@ -226,9 +236,11 @@ function renderJoin() {
      <ul style="color:var(--muted);margin-left:20px">${j.benefits_en.map((b, i) =>
        `<li>${esc(b)}${j.benefits_zh[i] ? `<span class="zh">${esc(j.benefits_zh[i])}</span>` : ""}</li>`).join("")}</ul>
      <div class="callout">
-       <p><b>📍 Location · 工作地点:</b> ${esc(j.location_en)}</p>
+       <p><b>📍 Location · 工作地点</b></p>
+       <p style="margin-top:2px">${esc(j.location_en)}</p>
        <p class="zh" style="margin-top:2px">${esc(j.location_zh)}</p>
-       <p style="margin-top:12px"><b>📩 How to apply · 申请方式:</b> ${esc(j.apply_en)}</p>
+       <p style="margin-top:12px"><b>📩 How to apply · 申请方式</b></p>
+       <p style="margin-top:2px">${esc(j.apply_en)}</p>
        <p class="zh" style="margin-top:2px">${esc(j.apply_zh)}</p>
        <p style="margin-top:8px">${j.emails.map(e => `<a href="mailto:${esc(e)}">${esc(e)}</a>`).join(" &nbsp;·&nbsp; ")}</p>
      </div>`;

@@ -110,8 +110,8 @@ window.DATA = {
     }
   },
   "join": {
-    "intro_en": "The Tang Lab is affiliated with the Chinese Institute for Brain Research, Beijing (CIBR) and the Department of Neurology, Xuanwu Hospital, Capital Medical University. We are continuously looking for motivated researchers passionate about Alzheimer's disease and cognitive disorders to join our interdisciplinary team.",
-    "intro_zh": "唐毅课题组依托北京脑科学与类脑研究所（CIBR）及首都医科大学宣武医院神经内科，长期招募对阿尔茨海默病及认知障碍研究充满热情的科研人才，欢迎加入我们的跨学科团队。",
+    "intro_en": "The Tang Lab is affiliated with the Department of Neurology, Xuanwu Hospital, Capital Medical University and the Chinese Institute for Brain Research, Beijing (CIBR). We are continuously looking for motivated researchers passionate about Alzheimer's disease and cognitive disorders to join our interdisciplinary team.",
+    "intro_zh": "唐毅课题组依托首都医科大学宣武医院神经内科及北京脑科学与类脑研究所（CIBR），长期招募对阿尔茨海默病及认知障碍研究充满热情的科研人才，欢迎加入我们的跨学科团队。",
     "positions": [
       {
         "role_en": "Postdoctoral Fellows",
@@ -258,18 +258,50 @@ window.DATA = {
     {
       "name": "Qi Qin",
       "section": "Faculty",
-      "experience": "Education ExperienceSep 2009 - Jun 2017, Harbin Medical University, Clinical Medicine (Successive postgraduate and doctoral programs of study) / Neurology, PhD",
+      "experience": "",
       "email": "qinqibao@126.com",
       "photo": "qi-qin.jpeg",
-      "source_file": "Tanglab-2025.9.19增加内容/People/Qin QI.docx"
+      "source_file": "Tanglab-2025.9.19增加内容/People/Qin QI.docx",
+      "details": [
+        {
+          "heading": "Education Experience",
+          "items": [
+            "Sep 2009 – Jun 2017, Harbin Medical University, Clinical Medicine (Successive postgraduate and doctoral programs of study) / Neurology, PhD"
+          ]
+        },
+        {
+          "heading": "Professional & Academic Experience",
+          "items": [
+            "Dec 2024 – Present, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Associate Chief Physician",
+            "Jan 2022 – Dec 2024, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Attending Physician",
+            "Aug 2017 – Dec 2021, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Physician",
+            "Aug 2014 – Aug 2016, Thomas Jefferson University, Department of Neurology and Neuroscience, Research Fellow",
+            "Jan 2014 – Jul 2014, I.M. Sechenov First Moscow State Medical University, Department of Neurology, Research Fellow"
+          ]
+        }
+      ]
     },
     {
       "name": "Ouyang Chen",
       "section": "Faculty",
-      "experience": "Ph.D., Duke University",
+      "experience": "",
       "email": "chenouyang@xwhosp.org; chenouyang@cibr.ac.cn",
       "photo": "ouyang-chen.jpeg",
-      "source_file": "3.People/2.Faculty/Ouyang Chen.docx"
+      "source_file": "3.People/2.Faculty/Ouyang Chen.docx",
+      "details": [
+        {
+          "heading": "Position",
+          "items": [
+            "Associate Professor, Department of Neurology, Xuanwu Hospital, Capital Medical University"
+          ]
+        },
+        {
+          "heading": "Experience",
+          "items": [
+            "Ph.D., Duke University"
+          ]
+        }
+      ]
     },
     {
       "name": "Qingyu Wang",
@@ -298,7 +330,7 @@ window.DATA = {
     {
       "name": "Dan Li",
       "section": "Student",
-      "experience": "Student, Hebei Medical University",
+      "experience": "PhD student, Hebei Medical University",
       "email": "lidan3723@163.com",
       "photo": "dan-li.jpeg",
       "source_file": "3.People/4.Students/Dan Li.docx"
@@ -306,7 +338,7 @@ window.DATA = {
     {
       "name": "Han-Chen Yang",
       "section": "Student",
-      "experience": "PhD Student, Capital Medical University",
+      "experience": "PhD student, Capital Medical University",
       "email": "yanghanchen1997@163.com",
       "photo": "han-chen-yang.jpg",
       "source_file": "3.People/4.Students/Han-Chen Yang.docx"
@@ -314,7 +346,7 @@ window.DATA = {
     {
       "name": "Junjie Hu",
       "section": "Student",
-      "experience": "Student, Capital Medical University",
+      "experience": "Graduate student, Capital Medical University",
       "email": "junjie_hu2023@163.com",
       "photo": "junjie-hu.jpeg",
       "source_file": "3.People/4.Students/Junjie Hu.docx"
@@ -338,7 +370,7 @@ window.DATA = {
     {
       "name": "Run Di",
       "section": "Student",
-      "experience": "Student, Capital Medical University",
+      "experience": "PhD student, Capital Medical University",
       "email": "dirun@cibr.ac.com",
       "photo": "run-di.jpg",
       "source_file": "3.People/4.Students/Run Di.docx"
@@ -346,7 +378,7 @@ window.DATA = {
     {
       "name": "Yunsi Yin",
       "section": "Student",
-      "experience": "PhD student Capital Medical University",
+      "experience": "PhD student, Capital Medical University",
       "email": "darayin1998@163.com",
       "photo": "yunsi-yin.jpg",
       "source_file": "3.People/4.Students/Student-Yunsi Yin.docx"
@@ -370,7 +402,7 @@ window.DATA = {
     {
       "name": "Weiyi Song",
       "section": "Student",
-      "experience": "Undergraduate student Capital Medical University",
+      "experience": "PhD student, Capital Medical University",
       "email": "swy64022@126.com",
       "photo": "weiyi-song.jpeg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Weiyi Song.docx"
@@ -378,7 +410,7 @@ window.DATA = {
     {
       "name": "Yu-Sen Deng",
       "section": "Student",
-      "experience": "PhD student He bei Medical University",
+      "experience": "PhD student, Hebei Medical University",
       "email": "dengyusen19@mails.ucas.ac.cn",
       "photo": "yu-sen-deng.jpeg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Yu-sen Deng.docx"
@@ -386,7 +418,7 @@ window.DATA = {
     {
       "name": "Yu-Huan Cheng",
       "section": "Student",
-      "experience": "Student Capital Medical University",
+      "experience": "Graduate student, Capital Medical University",
       "email": "chengyuhuan233@163.com",
       "photo": "yu-huan-cheng.jpeg",
       "source_file": "Tanglab-2026.5.18-website-更新/Student-Cheng .docx"
@@ -402,7 +434,7 @@ window.DATA = {
     {
       "name": "Lanzhou Xu",
       "section": "Student",
-      "experience": "Student Capital Medical University",
+      "experience": "Graduate student, Capital Medical University",
       "email": "xulanzhou123@163.com",
       "photo": "lanzhou-xu.png",
       "source_file": "Tanglab-2026.5.18-website-更新/Student-Xu.docx"
@@ -410,7 +442,7 @@ window.DATA = {
     {
       "name": "Xing-Can Xu",
       "section": "Student",
-      "experience": "Student Capital Medical University",
+      "experience": "Graduate student, Capital Medical University",
       "email": "yeah_iamll@163.com",
       "photo": "xing-can-xu.jpg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Xing-Can Xu.docx"
@@ -443,7 +475,7 @@ window.DATA = {
       "name": "Yuan Gao",
       "section": "Research Assistant",
       "experience": "M.S., Georgetown University",
-      "email": "gaoyuan1@cibrac.cn",
+      "email": "gaoyuan1@cibr.ac.cn",
       "photo": "yuan-gao.png",
       "source_file": "Tanglab-2026.5.18-website-更新/Research Assistants-Gao.docx"
     },

@@ -83,6 +83,11 @@ h3{color:var(--blue-d);font-size:20px;margin:26px 0 12px;}
 .person .nm{font-weight:700;color:var(--blue-d);font-size:16px;}
 .person .ex{color:var(--muted);font-size:13.5px;margin:6px 0 10px;min-height:38px;}
 .person .em{font-size:13px;word-break:break-all;}
+/* structured multi-section experience (Faculty) */
+.person .ex-sec{margin:8px 0;}
+.person .ex-h{font-size:12.5px;font-weight:700;color:var(--blue);text-transform:uppercase;letter-spacing:.4px;margin-bottom:3px;}
+.person .ex-list{margin:0 0 4px 16px;padding:0;color:var(--muted);font-size:13px;line-height:1.55;}
+.person .ex-list li{margin-bottom:3px;}
 /* horizontal layout for PI / Faculty: photo left, info right */
 .grid-horizontal{display:grid;grid-template-columns:1fr;gap:20px;}
 /* Faculty: two per row on wider screens */
