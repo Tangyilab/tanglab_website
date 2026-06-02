@@ -100,7 +100,7 @@ const SECTION_ORDER = [
   ["Student", "Students"],
   ["Research Assistant", "Research Assistants"],
 ];
-function personCard(p, horizontal) {
+function personCard(p, horizontal, extraClass) {
   const initials = (p.name || "?").split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpperCase();
   const img = p.photo ? `<img class="ph ph-img" src="assets/people/${esc(p.photo)}" alt="${esc(p.name)}" onerror="this.remove()">` : "";
   const email = p.email ? `<div class="em">✉ <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></div>` : "";
@@ -114,7 +114,8 @@ function personCard(p, horizontal) {
   } else {
     body = `<div class="ex">${esc(p.experience || "")}</div>`;
   }
-  return `<div class="person${horizontal ? " horizontal" : ""}"><div class="ph-wrap"><div class="ph ph-ph">${initials}</div>${img}</div>
+  const cls = "person" + (horizontal ? " horizontal" : "") + (extraClass ? " " + extraClass : "");
+  return `<div class="${cls}"><div class="ph-wrap"><div class="ph ph-ph">${initials}</div>${img}</div>
     <div class="body">
     <div class="nm">${esc(p.name)}</div>
     ${body}${email}</div></div>`;
@@ -124,15 +125,20 @@ function renderPeople() {
   let html = "";
   const SORT_ALPHA = new Set(["Postdoc", "Student", "Research Assistant"]);
   const HORIZONTAL = new Set(["PI", "Faculty"]);
+  const surname = (name) => {
+    const parts = (name || "").trim().split(/\s+/);
+    return (parts[parts.length - 1] || "").toLowerCase();
+  };
   for (const [key, label] of SECTION_ORDER) {
     const members = D.people.filter(p => p.section === key);
     if (!members.length) continue;
-    if (SORT_ALPHA.has(key)) members.sort((a, b) => a.name.localeCompare(b.name));
+    if (SORT_ALPHA.has(key)) members.sort((a, b) => surname(a.name).localeCompare(surname(b.name)) || a.name.localeCompare(b.name));
     const horizontal = HORIZONTAL.has(key);
-    const gridClass = (key === "PI" || key === "Faculty") ? "grid-horizontal grid-pi"
+    const isFaculty = key === "Faculty";
+    const gridClass = (key === "PI" || isFaculty) ? "grid-horizontal grid-pi"
       : "grid g4";
     html += `<div class="people-group"><h3>${label} <span style="color:var(--muted);font-weight:500;font-size:15px">(${members.length})</span></h3>
-      <div class="${gridClass}">${members.map(p => personCard(p, horizontal)).join("")}</div></div>`;
+      <div class="${gridClass}">${members.map(p => personCard(p, horizontal, isFaculty ? "faculty-card" : "")).join("")}</div></div>`;
   }
   root.innerHTML = html;
 }
