@@ -405,7 +405,7 @@ window.DATA = {
     {
       "name": "Weiyi Song",
       "section": "Student",
-      "experience": "Ph.D. student, Capital Medical University",
+      "experience": "Undergraduate student, Capital Medical University",
       "email": "swy64022@126.com",
       "photo": "weiyi-song.jpeg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Weiyi Song.docx"
