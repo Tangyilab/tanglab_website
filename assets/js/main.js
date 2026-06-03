@@ -2,6 +2,9 @@
 const D = window.DATA || {};
 const $ = (s, el = document) => el.querySelector(s);
 const esc = (s) => (s == null ? "" : String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])));
+// split "a@x; b@y" into separate mailto links
+const emailLinks = (raw) => (raw || "").split(/[;,]/).map(e => e.trim()).filter(Boolean)
+  .map(e => `<a href="mailto:${esc(e)}">${esc(e)}</a>`).join(", ");
 
 const NAV = [
   ["index.html", "Home"],
@@ -41,7 +44,7 @@ function renderChrome() {
       <p style="font-size:14px;line-height:1.7">Prof. Yi Tang<br><a href="mailto:tangyi@xwhosp.org">tangyi@xwhosp.org</a></p>
     </div>
   </div>
-  <div class="bottom">© ${"2026"} Tang Lab · Xuanwu Hospital, Capital Medical University. All rights reserved.</div>`;
+  <div class="bottom">© ${new Date().getFullYear()} Tang Lab · Xuanwu Hospital, Capital Medical University. All rights reserved.</div>`;
   document.body.appendChild(f);
 }
 
@@ -76,7 +79,7 @@ function renderAbout() {
         <div class="name">${esc(pi.name)}</div>
         <div class="ti">${esc(pi.title)}</div>
         <div class="meta">${esc(pi.affiliation)}</div>
-        <div class="meta">✉ <a href="mailto:${esc(pi.email)}">${esc(pi.email)}</a></div>
+        <div class="meta">✉ ${emailLinks(pi.email)}</div>
         <p class="bio">${esc(pi.bio)}</p>
       </div>
     </div>
@@ -103,7 +106,7 @@ const SECTION_ORDER = [
 function personCard(p, horizontal, extraClass) {
   const initials = (p.name || "?").split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpperCase();
   const img = p.photo ? `<img class="ph ph-img" src="assets/people/${esc(p.photo)}" alt="${esc(p.name)}" onerror="this.remove()">` : "";
-  const email = p.email ? `<div class="em">✉ <a href="mailto:${esc(p.email)}">${esc(p.email)}</a></div>` : "";
+  const email = p.email ? `<div class="em">✉ ${emailLinks(p.email)}</div>` : "";
   // structured multi-section experience (e.g. Faculty with Education / Positions)
   let body;
   if (p.details && p.details.length) {

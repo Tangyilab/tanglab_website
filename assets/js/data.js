@@ -209,7 +209,7 @@ window.DATA = {
   "news": [
     {
       "date": "2025-11-20",
-      "tag": "论文亮点",
+      "tag": "Publication Highlight",
       "title": "阿尔茨海默症的新疗法，靶向胆囊收缩素受体Gq通路的偏好性小分子",
       "image": "assets/news/news-cck-1.jpg",
       "link": "https://www.cell.com/cell/fulltext/S0092-8674(25)01238-3",
@@ -223,7 +223,7 @@ window.DATA = {
     },
     {
       "date": "2025-09-08",
-      "tag": "媒体科普",
+      "tag": "Media & Outreach",
       "title": "科学认识阿尔茨海默病：首都医科大学宣武医院主任医师唐毅解答阿尔茨海默病常见误区并提示早防早治",
       "image": "assets/news/news-presser-1.jpg",
       "link": "https://mp.weixin.qq.com/s/3rqNzDL2lfR04hfhSabPLQ",
@@ -317,7 +317,7 @@ window.DATA = {
     {
       "name": "Yuan-Yuan Chen",
       "section": "Postdoc",
-      "experience": "Student, Northwest University",
+      "experience": "Ph.D., Northwest University",
       "email": "chenyuannwu@163.com",
       "photo": "yuan-yuan-chen.jpeg",
       "source_file": "3.People/3.Postdocs/Yuan-Yuan Chen.docx"
@@ -453,7 +453,7 @@ window.DATA = {
     {
       "name": "Cewen Zheng",
       "section": "Research Assistant",
-      "experience": "Chinese Institute for Brain Research,Beijing",
+      "experience": "Chinese Institute for Brain Research, Beijing",
       "email": "zhengcewen@cibr.ac.cn",
       "photo": "cewen-zheng.png",
       "source_file": "Tanglab-2025.9.19增加内容/People/Cewen Zheng.docx"
