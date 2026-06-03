@@ -137,7 +137,7 @@ function renderPeople() {
     const isFaculty = key === "Faculty";
     const gridClass = (key === "PI" || isFaculty) ? "grid-horizontal grid-pi"
       : "grid g4";
-    html += `<div class="people-group"><h3>${label} <span style="color:var(--muted);font-weight:500;font-size:15px">(${members.length})</span></h3>
+    html += `<div class="people-group"><h3>${label}</h3>
       <div class="${gridClass}">${members.map(p => personCard(p, horizontal, isFaculty ? "faculty-card" : "")).join("")}</div></div>`;
   }
   root.innerHTML = html;
@@ -162,7 +162,7 @@ function renderPublications() {
   const years = [...new Set(pubs.map(p => p.year).filter(Boolean))].sort((a, b) => b - a);
   const yearSel = $("#pub-year");
   yearSel.innerHTML = `<option value="">All years</option>` + years.map(y => `<option value="${y}">${y}</option>`).join("");
-  const box = $("#pub-list"), count = $("#pub-count"), search = $("#pub-search"), index = $("#pub-index");
+  const box = $("#pub-list"), search = $("#pub-search"), index = $("#pub-index");
 
   function draw() {
     const q = search.value.trim().toLowerCase();
@@ -170,7 +170,6 @@ function renderPublications() {
     let list = pubs.filter(p =>
       (!fy || String(p.year) === fy) &&
       (!q || p.citation.toLowerCase().includes(q)));
-    count.textContent = `${list.length} publication${list.length !== 1 ? "s" : ""}`;
     const shownYears = [];
     let html = "", cur = null;
     for (const p of list) {
