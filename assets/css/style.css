@@ -174,5 +174,7 @@ h3{color:var(--blue-d);font-size:20px;margin:26px 0 12px;}
   .nav .menu.open{display:flex;}
   .nav .burger{display:block;}
   .hero h1{font-size:32px;}
+  /* on narrow screens allow the long second line to wrap to avoid overflow */
+  .hero h1 span{white-space:normal !important;}
 }
 @media(max-width:560px){.g4,.g3,.g2{grid-template-columns:1fr;}}
