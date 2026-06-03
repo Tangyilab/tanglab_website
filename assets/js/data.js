@@ -333,7 +333,7 @@ window.DATA = {
     {
       "name": "Dan Li",
       "section": "Student",
-      "experience": "PhD student, Hebei Medical University",
+      "experience": "Ph.D. student, Hebei Medical University",
       "email": "lidan3723@163.com",
       "photo": "dan-li.jpeg",
       "source_file": "3.People/4.Students/Dan Li.docx"
@@ -341,7 +341,7 @@ window.DATA = {
     {
       "name": "Han-Chen Yang",
       "section": "Student",
-      "experience": "PhD student, Capital Medical University",
+      "experience": "Ph.D. student, Capital Medical University",
       "email": "yanghanchen1997@163.com",
       "photo": "han-chen-yang.jpg",
       "source_file": "3.People/4.Students/Han-Chen Yang.docx"
@@ -357,7 +357,7 @@ window.DATA = {
     {
       "name": "Pei-Yang Gao",
       "section": "Student",
-      "experience": "PhD student, Capital Medical University",
+      "experience": "Ph.D. student, Capital Medical University",
       "email": "py_gao@163.com",
       "photo": "pei-yang-gao.jpeg",
       "source_file": "3.People/4.Students/Pei-Yang Gao.docx"
@@ -365,7 +365,7 @@ window.DATA = {
     {
       "name": "Rui-Yang Li",
       "section": "Student",
-      "experience": "PhD student, Capital Medical University",
+      "experience": "Ph.D. student, Capital Medical University",
       "email": "li_ry1219@163.com",
       "photo": "rui-yang-li.jpeg",
       "source_file": "3.People/4.Students/Rui-Yang Li.docx"
@@ -373,7 +373,7 @@ window.DATA = {
     {
       "name": "Run Di",
       "section": "Student",
-      "experience": "PhD student, Capital Medical University",
+      "experience": "Ph.D. student, Capital Medical University",
       "email": "dirun@cibr.ac.com",
       "photo": "run-di.jpg",
       "source_file": "3.People/4.Students/Run Di.docx"
@@ -381,7 +381,7 @@ window.DATA = {
     {
       "name": "Yunsi Yin",
       "section": "Student",
-      "experience": "PhD student, Capital Medical University",
+      "experience": "Ph.D. student, Capital Medical University",
       "email": "darayin1998@163.com",
       "photo": "yunsi-yin.jpg",
       "source_file": "3.People/4.Students/Student-Yunsi Yin.docx"
@@ -389,7 +389,7 @@ window.DATA = {
     {
       "name": "Jiang-Ting Li",
       "section": "Student",
-      "experience": "PhD student, Capital Medical University",
+      "experience": "Ph.D. student, Capital Medical University",
       "email": "li_jiangting@163.com",
       "photo": "jiang-ting-li.jpeg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Jiang-ting Li.docx"
@@ -400,12 +400,12 @@ window.DATA = {
       "MISSING": true,
       "email": "liuqianying22@163.com",
       "photo": "qianying-liu.jpeg",
-      "experience": "PhD student, Capital Medical University"
+      "experience": "Ph.D. student, Capital Medical University"
     },
     {
       "name": "Weiyi Song",
       "section": "Student",
-      "experience": "PhD student, Capital Medical University",
+      "experience": "Ph.D. student, Capital Medical University",
       "email": "swy64022@126.com",
       "photo": "weiyi-song.jpeg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Weiyi Song.docx"
@@ -413,7 +413,7 @@ window.DATA = {
     {
       "name": "Yu-Sen Deng",
       "section": "Student",
-      "experience": "PhD student, Hebei Medical University",
+      "experience": "Ph.D. student, Hebei Medical University",
       "email": "dengyusen19@mails.ucas.ac.cn",
       "photo": "yu-sen-deng.jpeg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Yu-sen Deng.docx"
@@ -432,7 +432,7 @@ window.DATA = {
       "MISSING": true,
       "email": "pangmiao123@outlook.com",
       "photo": "miao-pang.jpeg",
-      "experience": "PhD student, Capital Medical University"
+      "experience": "Ph.D. student, Capital Medical University"
     },
     {
       "name": "Lanzhou Xu",
