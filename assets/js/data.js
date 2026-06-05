@@ -206,49 +206,6 @@ window.DATA = {
       "chenouyang@cibr.ac.cn"
     ]
   },
-  "news": [
-    {
-      "date": "2025-11-20",
-      "tag": "Publication Highlight",
-      "title": "阿尔茨海默症的新疗法，靶向胆囊收缩素受体Gq通路的偏好性小分子",
-      "image": "assets/news/news-cck-1.jpg",
-      "link": "https://www.cell.com/cell/fulltext/S0092-8674(25)01238-3",
-      "source": "",
-      "body": [
-        "阿尔茨海默病(AD)是一种进行性神经退行性疾病,其核心临床表现为记忆力减退和认知功能障碍。全球范围内,AD的患病率和致死率均呈逐年攀升态势。随着疾病进展,患者的认知和记忆功能持续恶化,最终导致日常生活能力完全丧失。现有的AD治疗药物,包括胆碱酯酶抑制剂和NMDA受体拮抗剂(如美金刚),虽能在一定程度上改善认知症状,但并不能遏制或延缓疾病的病理进程。而新近开发的抗Aβ单克隆抗体类药物则面临显著的安全性挑战,如脑血管源性水肿等不良反应,且临床疗效有限。因此,探索全新的治疗策略已成为当务之急。",
-        "神经肽是神经元突触活动中的重要调节分子,广泛分布于中枢及外周神经系统,深度参与神经信号转导、突触可塑性维持及神经内分泌平衡,并发挥神经营养支持和神经保护功能。作为脑内含量最为丰富的神经肽之一,胆囊收缩素(CCK)在神经传递和高级认知功能调控中占据核心地位,其生理作用涵盖情绪调节、学习记忆巩固以及焦虑恐惧反应的调控等多个层面。CCK通过与其特异性受体——B型胆囊收缩素受体(CCKBR)结合,激活下游信号级联反应。这一受体-配体相互作用不仅是诱导长时程增强(LTP)的必要条件,更是学习记忆形成过程中不可或缺的分子基础。值得注意的是,中枢神经系统中存在多种CCK分子亚型,可激活多条G蛋白偶联信号通路,其中硫酸化八肽CCK(CCK8s)因其表达丰度最高而被认为是最关键的内源性配体。",
-        "前期研究工作表明,外源性给予CCK8s能够显著提升老年大鼠的空间学习记忆能力,这一发现提示CCK信号通路的调控具有治疗AD的潜在价值。鉴于AD已成为全球老龄化背景下的重大公共卫生挑战,深入探索以CCKBR为靶点开发AD治疗药物的可行性具有重要的科学意义和临床价值。",
-        "2025年11月20日，北京大学/山东大学孙金鹏教授与香港城市大学贺菊芳教授，北京大学张勇教授，铁璐副教授，香港中文大学（深圳）杜洋教授，首都医科大学宣武医院唐毅教授通力合作在Cell上发表了研究论文：Elucidating pathway-selective biased CCKBR agonism for Alzheimer's disease treatment。该研究团队采用\"临床-基础-转化\"的研究范式,从临床实际问题出发,整合临床样本分析与动物模型实验,系统阐明了CCKBR下游不同G蛋白信号通路在AD病理进程中的差异化功能。研究团队通过解析内源性配体CCK8s与CCKBR相互作用时激活不同G蛋白亚型(Gs、Gq、Gi)的分子机理,揭示了CCKBR信号偏向性激活的结构生物学基础。基于这一机制性认识,研究团队成功开发出Gq偏向性激动剂3r1,并通过动物实验与转录组学分析证实,3r1能够通过激活CCKBR-Gq-Plcb4-Adam10信号轴,发挥抑制神经元及突触损伤、促进Aβ斑块清除的双重治疗效应,为AD的精准靶向治疗开辟了新途径。"
-      ]
-    },
-    {
-      "date": "2025-09-08",
-      "tag": "Media & Outreach",
-      "title": "科学认识阿尔茨海默病：首都医科大学宣武医院主任医师唐毅解答阿尔茨海默病常见误区并提示早防早治",
-      "image": "assets/news/news-presser-1.jpg",
-      "link": "https://mp.weixin.qq.com/s/3rqNzDL2lfR04hfhSabPLQ",
-      "source": "首都医科大学宣武医院公众号",
-      "body": [
-        "9月8日，国家卫生健康委召开新闻发布会，介绍时令节气与健康（白露）有关情况，首都医科大学宣武医院主任医师唐毅参加发布会，解答阿尔茨海默病常见误区并提示需早防早治。",
-        "央广网记者提问：阿尔茨海默病常常被认为是只有老年人才会得的病，请问是这样吗？谢谢。",
-        "唐毅：谢谢你的问题，这确实是一个很常见的误区。很多人都觉得阿尔茨海默病只有老年人才会发病，这其实并不准确，虽然大多数的阿尔茨海默病患者都是65岁以上发病，但是也有一部分患者是在50、60岁甚至更年轻的时候就发病，我们称之为早发型阿尔茨海默病。",
-        "另一方面，我们中青年人如果偶尔忘事也不必过度紧张，这种情况大多数都是压力大、睡眠不足等原因造成的，在忘事儿发生比较频繁，明显影响到工作和生活的时候，我们才需要到医院就诊。",
-        "在这里顺便介绍几个方法，可以有效降低阿尔茨海默病发病的风险。首先，从年轻的时候就要开始养成良好的生活习惯，这包括坚持运动、规律睡眠、均衡饮食、控制体重、戒烟限酒等。同时要保持活跃的社交，培养长期的兴趣爱好，比如阅读、绘画等。第三，我们还要保护好听力和视力。所有的这些方法看起来非常日常，但是只要我们长期坚持，就可以有效地延缓大脑衰老，能够切实降低阿尔茨海默病的发病风险。",
-        "21世纪经济报道记者：有一部分上了年纪的人，很担心自己是老年痴呆，请问怎么区分是正常老年健忘还是阿尔茨海默病的早期信号？谢谢。",
-        "唐毅：谢谢您的问题，这确实是很多老年朋友比较关心的问题。很多老年朋友随着年龄的增加，就会觉得自己的记忆力不如以前，容易忘事儿，这可能是年龄增长所导致的良性健忘，也可能是阿尔茨海默病的早期表现。怎么进行区分呢？我们一般认为，老年人的良性健忘主要表现为忘细节、记大事，比如说他会忘记要买的菜名，但是记得买菜这件事，家里人提醒他之后能够想起来，一般发生的频率不高，每周一到两次，对自己的日常生活也没有影响。而阿尔茨海默病的早期遗忘往往更加严重，比如刚说过的话就忘，一天之内重复问同一个问题，家里人提醒之后也想不起来，这个时候就要提高警惕。",
-        "同时，阿尔茨海默病的早期还有很多其他表现，比如性格变得淡漠或者躁狂，比如熟悉的家务变得不会做，还有的老年朋友可能学习新事物的能力下降，说话词不达意。如果出现这些情况的话，就要高度怀疑是阿尔茨海默病的早期表现，就要尽早的到医院去就诊。",
-        "在这里，我也一起介绍一下目前阿尔茨海默病的主要治疗方法。目前阿尔茨海默病的治疗主要包括药物治疗和非药物治疗，治疗的主要目标是改善患者的症状，延缓疾病的进展。",
-        "就药物治疗来说，主要包括两大类，第一大类主要是通过调控脑内神经递质，比如说乙酰胆碱，来改善患者的症状。第二大类主要是通过清除脑内的致病蛋白，比如淀粉样蛋白，来延缓疾病的进展。",
-        "就非药物治疗来说，主要包括科学的认知训练、规律锻炼，比如散步、打太极拳等，这些都已经被证明能够有效延缓疾病的进展，改善认知功能。除此之外，均衡的饮食、控制高血压、糖尿病、高脂血症这些心脑血管疾病的危险因素，也可以有效延缓阿尔茨海默病的进展。在这里需要特别强调的是，上面所说的这些方法，我们都是越早使用效果越好，长期坚持，才能够发挥作用。谢谢。",
-        "中国青年报记者：经常听说老年人会出现脑萎缩，请问出现脑萎缩以后一定会得阿尔茨海默病吗？谢谢。",
-        "唐毅：谢谢你的问题，这也是我们在门诊经常被问到的一个问题。什么是脑萎缩呢？脑萎缩是指我们的脑组织体积的缩小，这通常是通过CT或者核磁这些检查发现的。阿尔茨海默病是会导致脑萎缩，但是我们发现了脑萎缩，并不等同于阿尔茨海默病，这是因为我们的脑组织随着年龄的增长就会出现非常缓慢的体积缩小，这是一种生理现象，就像我们岁数大了皮肤就会出现皱纹一样。",
-        "阿尔茨海默病的脑萎缩和生理性的脑萎缩区别是什么呢？主要有两点。",
-        "第一点是它们萎缩的部位不一样，阿尔茨海默病的脑萎缩，优先累及的是与记忆力相关的海马区域，同时波及到大脑皮层。而生理性的脑萎缩通常表现为全脑弥漫性的轻微缩小，没有“重点受累的区域”。",
-        "第二点，它们萎缩的程度不一样，阿尔茨海默病的脑萎缩速度要明显快于生理性脑萎缩，同时还经常伴有记忆衰退、分不清时间地点、学习新事物的能力下降等这些表现，而生理性的脑萎缩程度比较轻微、进展速度也非常缓慢，也没有上述的这些表现。",
-        "所以发现了有脑萎缩千万不要紧张，关键要看是否伴随脑功能损害的表现。谢谢。"
-      ]
-    }
-  ],
   "people": [
     {
       "name": "Yi Tang",
@@ -729,7 +686,9 @@ window.DATA = {
         "Tang Y",
         "Xing Y"
       ],
-      "journal": "Alzheimers Dement. 2026 Jan;22(1):e71084."
+      "journal": "Alzheimers Dement. 2026 Jan;22(1):e71084.",
+      "featured": true,
+      "featured_rank": 4
     },
     {
       "citation": "Zhao B, Geng C, Zhou S, et al. Inflammation as a mediator of air pollution's role in Alzheimer's disease and related dementias. J Alzheimers Dis. 2026 Feb;109(4):1649-1662.",
@@ -808,7 +767,9 @@ window.DATA = {
         "He JF",
         "Sun JP"
       ],
-      "journal": "Cell. 2026 Jan 22;189(2):640-658.e22."
+      "journal": "Cell. 2026 Jan 22;189(2):640-658.e22.",
+      "featured": true,
+      "featured_rank": 0
     },
     {
       "citation": "Zhao B, Zhou S, Wei T, et al. Lost in Space and Thought: Navigating the Cognitive Map in Alzheimer's Disease. Neurosci Bull. 2026 Mar;42(3):697-711.",
@@ -1284,7 +1245,9 @@ window.DATA = {
         "Pei G",
         "Liu GH"
       ],
-      "journal": "Nat Aging. 2025 Sep;5(9):1669-1685."
+      "journal": "Nat Aging. 2025 Sep;5(9):1669-1685.",
+      "featured": true,
+      "featured_rank": 2
     },
     {
       "citation": "Zhao B, Zhou S, Chang J, et al. Association between weekend recovery sleep and risk of incident dementia: a prospective cohort study in the UK Biobank. J Neurol. 2025 Sep 5;272(9):612.",
@@ -1380,7 +1343,9 @@ window.DATA = {
         "Tang Y",
         "Lu J"
       ],
-      "journal": "Radiology. 2025 Jun;315(3):e241463."
+      "journal": "Radiology. 2025 Jun;315(3):e241463.",
+      "featured": true,
+      "featured_rank": 12
     },
     {
       "citation": "Zang GY, Rao K, Wu J, et al. Digital Therapeutics for Cognitive Impairment: Exploring Innovations, Challenges, and Future Prospects. J Med Internet Res. 2025 Jun 12;27:e73689.",
@@ -1626,7 +1591,9 @@ window.DATA = {
         "Xu ZD",
         "Tang Y"
       ],
-      "journal": "Prog Neurobiol. 2025 Apr;247:102732."
+      "journal": "Prog Neurobiol. 2025 Apr;247:102732.",
+      "featured": true,
+      "featured_rank": 14
     },
     {
       "citation": "Guo R, Li D, Li F, et al. Effects of whole-head 810 nm near-infrared therapy on cognitive and neuropsychiatric symptoms in Alzheimer's disease: A pilot study. J Alzheimers Dis. 2025 Mar;104(1):52-60.",
@@ -1805,7 +1772,9 @@ window.DATA = {
         "Zhang X",
         "Liu Y"
       ],
-      "journal": "Sci Adv. 2024 Oct 11;10(41):eado8837."
+      "journal": "Sci Adv. 2024 Oct 11;10(41):eado8837.",
+      "featured": true,
+      "featured_rank": 9
     },
     {
       "citation": "Yang K, Yang X, Yin P, Zhou M, Tang Y. Temporal trend and attributable risk factors of Alzheimer's disease and other dementias burden in China: Findings from the Global Burden of Disease Study 2021. Alzheimers Dement. 2024 Sep 23. doi: 10.1002/alz.14254. Epub ahead of print. PMID: 39312279.",
@@ -1821,7 +1790,9 @@ window.DATA = {
         "Zhou M",
         "Tang Y"
       ],
-      "journal": "Alzheimers Dement. 2024 Sep 23. doi: 10.1002/alz.14254. Epub ahead of print. PMID: 39312279."
+      "journal": "Alzheimers Dement. 2024 Sep 23. doi: 10.1002/alz.14254. Epub ahead of print. PMID: 39312279.",
+      "featured": true,
+      "featured_rank": 5
     },
     {
       "citation": "Wang T, Yan S, Shan Y, et al. Altered Neuronal Activity Patterns of the Prefrontal Cortex in Alzheimer's Disease After Transcranial Alternating Current Stimulation: A Resting-State fMRI Study. J Alzheimers Dis. 2024;101(3):901-912.",
@@ -2357,7 +2328,9 @@ window.DATA = {
         "Li C",
         "Tang Y"
       ],
-      "journal": "Alzheimers Dement. 2023 Aug;19(8):3327-3338. doi: 10.1002/alz.12971"
+      "journal": "Alzheimers Dement. 2023 Aug;19(8):3327-3338. doi: 10.1002/alz.12971",
+      "featured": true,
+      "featured_rank": 6
     },
     {
       "citation": "Qin Q, Wang M, Li H, Xu ZD, Tang Y. Editorial: The role of microglia in the pathogenesis of neurodegenerative diseases. Front Aging Neurosci. 2023 Jan 6:14:1105896. doi: 10.3389/fnagi.2022.1105896.",
@@ -2541,7 +2514,9 @@ window.DATA = {
         "Yu CJ",
         "Tang Y"
       ],
-      "journal": "Mol Neurodegener. 2022 Jun 3;17(1):40. doi: 10.1186/s13024-022-00542-y."
+      "journal": "Mol Neurodegener. 2022 Jun 3;17(1):40. doi: 10.1186/s13024-022-00542-y.",
+      "featured": true,
+      "featured_rank": 13
     },
     {
       "citation": "Wang YY, Deng YS, Dai SK, Mi TW, Li RY, Liu PP, Liu C, HeBD, He XC, Du HZ, Yang HC, Tang Y, Liu CM, Teng ZQ. Loss of microglial EED impairs synapse density, learning and memory. Mol Psychiatry. 2022 Jul; 27(7):2999-3009. doi: 10.1038/s41380-022-01576-w.",
@@ -2566,7 +2541,9 @@ window.DATA = {
         "Liu CM",
         "Teng ZQ"
       ],
-      "journal": "Mol Psychiatry. 2022 Jul;27(7):2999-3009."
+      "journal": "Mol Psychiatry. 2022 Jul;27(7):2999-3009.",
+      "featured": true,
+      "featured_rank": 10
     },
     {
       "citation": "Wei T, Guo Z, Wang Z, Li C, Zhu W, Zheng Y, Yin Y, Mi Y, Xia X, Hou H, Tang Y. Five Major Psychiatric Disorders and Alzheimer's Disease: A Bidirectional Mendelian Randomization Study. J Alzheimers Dis. 2022 Mar 31. doi: 10.3233/JAD-220010.",
@@ -2706,7 +2683,9 @@ window.DATA = {
         "Li L",
         "Tang Y"
       ],
-      "journal": "Alzheimers Dement. 2022 Jun;18(6):1085-1099."
+      "journal": "Alzheimers Dement. 2022 Jun;18(6):1085-1099.",
+      "featured": true,
+      "featured_rank": 7
     },
     {
       "citation": "Wang Z, Zhu W, Xing Y, Jia J, Tang Y. B vitamins and prevention of cognitive decline and incident dementia: a systematic review and meta-analysis. Nutr Rev. 2022 Mar 10;80(4):931-949.",
@@ -2907,7 +2886,9 @@ window.DATA = {
         "Lu J",
         "Jia J"
       ],
-      "journal": "Brain. 2020. doi: 10.1093/brain/awaa364."
+      "journal": "Brain. 2020. doi: 10.1093/brain/awaa364.",
+      "featured": true,
+      "featured_rank": 11
     },
     {
       "citation": "Wang F, Ma X, Shi Y, Jia L, Zuo X, Yu Y, Jin H, Tang Y, Guo D, Jia J. Cognitive profiles in adult-onset neuronal intranuclear inclusion disease: a case series from the memory clinic. Neurol Sci. 2020; doi: 10.1007/s10072-020-04864-x.",
@@ -3028,7 +3009,9 @@ window.DATA = {
         "Jia J",
         "COAST Group"
       ],
-      "journal": "Lancet Public Health. 2020;5(12):e661-e671."
+      "journal": "Lancet Public Health. 2020;5(12):e661-e671.",
+      "featured": true,
+      "featured_rank": 3
     },
     {
       "citation": "Jia L, Xu H, Chen S, Wang X, Yang J, Gong M, Wei C, Tang Y, Qu Q, Chu L, Shen L, Zhou C, Wang Q, Zhao T, Zhou A, Li Y, Li F, Li Y, Jin H, Qin Q, Jiao H, Li Y, Zhang H, Lyu D, Shi Y, Song Y, Jia J. The APOE ε4 exerts differential effects on familial and other subtypes of Alzheimer's disease. Alzheimers Dement. 2020. doi: 10.1002/alz.12153.",
@@ -3135,7 +3118,9 @@ window.DATA = {
         "Jia J",
         "Tang Y"
       ],
-      "journal": "Alzheimers Dement (N Y). 2020 Apr 7;6(1):e12005."
+      "journal": "Alzheimers Dement (N Y). 2020 Apr 7;6(1):e12005.",
+      "featured": true,
+      "featured_rank": 8
     },
     {
       "citation": "Xie B, Shi X, Xing Y, Tang Y. Association between atherosclerosis and Alzheimer's disease: A systematic review and meta-analysis. Brain Behav. 2020;10(4):e01601.",
@@ -3253,7 +3238,9 @@ window.DATA = {
         "Jia J",
         "Group for the Project of Dementia Situation in China"
       ],
-      "journal": "Lancet Neurol. 2020 Jan;19(1):81-92."
+      "journal": "Lancet Neurol. 2020 Jan;19(1):81-92.",
+      "featured": true,
+      "featured_rank": 1
     },
     {
       "citation": "Wang H, Fan Z, Shi C, Xiong L, Zhang H, Li T, Sun Y, Guo Q, Tian Y, Qu Q, Zhang N, Cheng Z, Wu L, Wu D, Han Z, Tian J, Xie H, Tan S, Gao J, Luo B, Pan X, Peng G, Qin B, Tang Y, Wang K, Wang T, Zhang J, Zhao Q, Gauthier S, Yu X. Consensus statement on the neurocognitive outcomes for early detection of mild cognitive impairment and Alzheimer dementia from the Chinese Neuropsychological Normative (CN-NORM) Project. Journal of global health. 2019; 9(2): 020320",

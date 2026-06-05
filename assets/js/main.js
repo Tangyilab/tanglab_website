@@ -12,7 +12,6 @@ const NAV = [
   ["research.html", "Research"],
   ["people.html", "People"],
   ["publications.html", "Publications"],
-  ["news.html", "News"],
   ["join.html", "Join Us"],
 ];
 
@@ -55,11 +54,6 @@ function renderHome() {
   // research preview
   $("#home-research").innerHTML = r.areas.map(x =>
     `<div class="card"><div class="ic">${x.icon}</div><h4>${esc(x.title)}</h4><p>${esc(x.desc)}</p></div>`).join("");
-  // latest news
-  $("#home-news").innerHTML = D.news.slice(0, 2).map(n => {
-    const snippet = (n.body && n.body[0] ? n.body[0] : "").slice(0, 140);
-    return `<a class="card" href="news.html" style="text-decoration:none;display:block"><div class="ic">📰</div><h4>${esc(n.title)}</h4><p>${esc(n.date)} · ${esc(snippet)}…</p></a>`;
-  }).join("");
 }
 
 /* ---------- ABOUT ---------- */
@@ -161,71 +155,19 @@ function fmtCitation(p) {
   return esc(p.citation).replace(/(Tang Y)\b/g, "<b>$1</b>");
 }
 function renderPublications() {
-  const pubs = D.publications;
-  const years = [...new Set(pubs.map(p => p.year).filter(Boolean))].sort((a, b) => b - a);
-  const yearSel = $("#pub-year");
-  yearSel.innerHTML = `<option value="">All years</option>` + years.map(y => `<option value="${y}">${y}</option>`).join("");
-  const box = $("#pub-list"), search = $("#pub-search"), index = $("#pub-index");
-
-  function draw() {
-    const q = search.value.trim().toLowerCase();
-    const fy = yearSel.value;
-    let list = pubs.filter(p =>
-      (!fy || String(p.year) === fy) &&
-      (!q || p.citation.toLowerCase().includes(q)));
-    const shownYears = [];
-    let html = "", cur = null;
-    for (const p of list) {
-      if (p.year !== cur) {
-        cur = p.year;
-        const y = cur || "Other";
-        shownYears.push(y);
-        html += `<div class="pub-year" id="year-${y}">${y}</div>`;
-      }
-      const links = [];
-      if (p.pmid) links.push(`<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(p.pmid)}/" target="_blank" rel="noopener">PubMed</a>`);
-      if (p.doi) links.push(`<a href="https://doi.org/${encodeURIComponent(p.doi)}" target="_blank" rel="noopener">DOI</a>`);
-      html += `<div class="pub">${fmtCitation(p)}${links.length ? `<div class="links">${links.join("")}</div>` : ""}</div>`;
-    }
-    box.innerHTML = html || `<p class="lead">No matching publications.</p>`;
-    // year index (reflects currently visible years)
-    index.innerHTML = shownYears.length > 1
-      ? shownYears.map(y => `<a href="#year-${y}" data-year="${y}">${y}</a>`).join("")
-      : "";
-  }
-
-  // smooth-scroll with offset for the sticky nav, without leaving a #hash
-  index.addEventListener("click", (e) => {
-    const a = e.target.closest("a[data-year]");
-    if (!a) return;
-    e.preventDefault();
-    const el = document.getElementById("year-" + a.dataset.year);
-    if (el) {
-      const y = el.getBoundingClientRect().top + window.pageYOffset - 76;
-      window.scrollTo({ top: y, behavior: "smooth" });
-    }
-  });
-
-  search.oninput = draw; yearSel.onchange = draw;
-  draw();
-}
-
-/* ---------- NEWS ---------- */
-function renderNews() {
-  $("#news-root").innerHTML = D.news.map(n => {
-    const img = n.image ? `<img class="na-img" src="${esc(n.image)}" alt="" onerror="this.style.display='none'">` : "";
-    const body = (n.body || []).map(p => `<p>${esc(p)}</p>`).join("");
-    const src = n.source ? `<p class="na-src">转自：${esc(n.source)}</p>` : "";
-    const link = n.link ? `<p class="na-link"><a href="${esc(n.link)}" target="_blank" rel="noopener">阅读原文 →</a></p>` : "";
-    return `<article class="news-article">
-      <div class="na-head"><span class="tag">${esc(n.tag)}</span><span class="date">${esc(n.date)}</span></div>
-      <h2>${esc(n.title)}</h2>
-      ${img}
-      <div class="na-body">${body}</div>
-      ${src}${link}
-    </article>`;
+  // Show only a curated set of selected high-impact publications.
+  const featured = D.publications
+    .filter(p => p.featured)
+    .sort((a, b) => (a.featured_rank ?? 99) - (b.featured_rank ?? 99));
+  const box = $("#pub-list");
+  box.innerHTML = featured.map(p => {
+    const links = [];
+    if (p.pmid) links.push(`<a href="https://pubmed.ncbi.nlm.nih.gov/${esc(p.pmid)}/" target="_blank" rel="noopener">PubMed</a>`);
+    if (p.doi) links.push(`<a href="https://doi.org/${encodeURIComponent(p.doi)}" target="_blank" rel="noopener">DOI</a>`);
+    return `<div class="pub">${fmtCitation(p)}${links.length ? `<div class="links">${links.join("")}</div>` : ""}</div>`;
   }).join("");
 }
+
 
 /* ---------- JOIN (bilingual: English primary, Chinese secondary) ---------- */
 function renderJoin() {
@@ -259,7 +201,7 @@ function renderJoin() {
 /* ---------- boot ---------- */
 document.addEventListener("DOMContentLoaded", () => {
   renderChrome();
-  const map = { index: renderHome, about: renderAbout, research: renderResearch, people: renderPeople, publications: renderPublications, news: renderNews, join: renderJoin };
+  const map = { index: renderHome, about: renderAbout, research: renderResearch, people: renderPeople, publications: renderPublications, join: renderJoin };
   const fn = map[document.body.dataset.page];
   if (fn) try { fn(); } catch (e) { console.error(e); }
 });
