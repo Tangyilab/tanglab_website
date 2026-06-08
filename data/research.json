@@ -1,25 +1,34 @@
 {
-  "intro": "Our research is dedicated to the in-depth study of Alzheimer's disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies. We integrate molecular biology, biochemistry, bioinformatics, electrophysiology, and behavioral analysis, and combine animal models, human cell models, neuroimaging, and epidemiology to advance both the scientific understanding and the clinical application of cognitive disorders.",
+  "intro_en": "Our research is dedicated to the in-depth study of Alzheimer's disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies. We integrate molecular biology, biochemistry, bioinformatics, electrophysiology, and behavioral analysis, and combine animal models, human cell models, neuroimaging, and epidemiology to advance both the scientific understanding and the clinical application of cognitive disorders.",
+  "intro_zh": "本课题组致力于深入研究阿尔茨海默病及相关认知障碍，聚焦其发病机制与早期干预策略。我们整合分子生物学、生物化学、生物信息学、电生理学与行为学分析，并结合动物模型、人源细胞模型、神经影像与流行病学方法，推动认知障碍领域的科学认识与临床应用。",
   "areas": [
     {
       "icon": "🧬",
-      "title": "Pathogenesis of Alzheimer's disease",
-      "desc": "Using animal models and human cell models together with advanced molecular biology techniques to comprehensively investigate the molecular mechanisms underlying Alzheimer's disease."
+      "title_en": "Pathogenesis of Alzheimer's disease",
+      "title_zh": "阿尔茨海默病的发病机制",
+      "desc_en": "Using animal models and human cell models together with advanced molecular biology techniques to comprehensively investigate the molecular mechanisms underlying Alzheimer's disease.",
+      "desc_zh": "利用动物模型与人源细胞模型，结合先进的分子生物学技术，全面探究阿尔茨海默病的分子机制。"
     },
     {
       "icon": "⚡",
-      "title": "Non-Pharmacological Intervention",
-      "desc": "Exploring cognitive training and transcranial electrical stimulation for their efficacy and the underlying neural mechanisms in improving cognitive function."
+      "title_en": "Non-Pharmacological Intervention",
+      "title_zh": "非药物干预",
+      "desc_en": "Exploring cognitive training and transcranial electrical stimulation for their efficacy and the underlying neural mechanisms in improving cognitive function.",
+      "desc_zh": "探索认知训练与经颅电刺激在改善认知功能方面的疗效及其潜在的神经机制。"
     },
     {
       "icon": "📊",
-      "title": "Electrophysiology & Early Diagnosis",
-      "desc": "Employing neuro-electrophysiological and perceptual technologies to discover new avenues for the early diagnosis and treatment of cognitive disorders."
+      "title_en": "Electrophysiology & Early Diagnosis",
+      "title_zh": "电生理与早期诊断",
+      "desc_en": "Employing neuro-electrophysiological and perceptual technologies to discover new avenues for the early diagnosis and treatment of cognitive disorders.",
+      "desc_zh": "运用神经电生理与感知觉技术，为认知障碍的早期诊断与治疗开辟新途径。"
     },
     {
       "icon": "🌏",
-      "title": "Nationwide Multicenter Cognitive Cohort",
-      "desc": "Conducting a nationwide multicenter cognitive cohort study to reveal the epidemiological characteristics and disease burden of cognitive disorders in China."
+      "title_en": "Nationwide Multicenter Cognitive Cohort",
+      "title_zh": "全国多中心认知队列",
+      "desc_en": "Conducting a nationwide multicenter cognitive cohort study to reveal the epidemiological characteristics and disease burden of cognitive disorders in China.",
+      "desc_zh": "开展全国多中心认知队列研究，揭示我国认知障碍的流行病学特征与疾病负担。"
     }
   ]
 }

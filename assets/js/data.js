@@ -2,112 +2,144 @@
 window.DATA = {
   "about": {
     "lab": {
-      "tagline": "Early diagnosis and intervention of Alzheimer's disease and vascular cognitive impairment",
-      "intro": "Yi Tang's laboratory focuses on understanding the complex nature of Alzheimer's disease (AD) and vascular cognitive impairment (VCI). Our research integrates molecular biology, biochemistry, bioinformatics, electrophysiology, and behavioral analysis to uncover disease mechanisms and to develop strategies for early diagnosis and intervention.",
-      "affiliations": [
+      "tagline_en": "Early diagnosis and intervention of Alzheimer's disease and vascular cognitive impairment",
+      "tagline_zh": "阿尔茨海默病与血管性认知障碍的早期诊断与干预",
+      "intro_en": "Yi Tang's laboratory focuses on understanding the complex nature of Alzheimer's disease (AD) and vascular cognitive impairment (VCI). Our research integrates molecular biology, biochemistry, bioinformatics, electrophysiology, and behavioral analysis to uncover disease mechanisms and to develop strategies for early diagnosis and intervention.",
+      "intro_zh": "唐毅课题组致力于探究阿尔茨海默病（AD）与血管性认知障碍（VCI）的复杂本质。我们整合分子生物学、生物化学、生物信息学、电生理学与行为学分析，揭示疾病机制，并发展早期诊断与干预策略。",
+      "affiliations_en": [
         "Xuanwu Hospital Capital Medical University, Beijing, China",
         "Chinese Institute for Brain Research (CIBR), Beijing, China"
+      ],
+      "affiliations_zh": [
+        "首都医科大学宣武医院，北京，中国",
+        "北京脑科学与类脑研究所（CIBR），北京，中国"
       ]
     },
     "pi": {
-      "name": "Yi Tang, MD, PhD",
-      "title": "Chief Neurologist, Professor in Neurology",
-      "affiliation": "Department of Neurology, Xuanwu Hospital, Capital Medical University, Beijing, China",
+      "name_en": "Yi Tang, MD, PhD",
+      "name_zh": "唐毅 医学博士",
+      "title_en": "Chief Neurologist, Professor in Neurology",
+      "title_zh": "主任医师，神经病学教授",
+      "affiliation_en": "Department of Neurology, Xuanwu Hospital, Capital Medical University, Beijing, China",
+      "affiliation_zh": "首都医科大学宣武医院神经内科，北京，中国",
       "email": "tangyi@xwhosp.org",
       "photo": "assets/people/yi-tang.jpeg",
-      "bio": "Prof. Yi Tang received his Ph.D. and M.D. from Peking Union Medical College and conducted postdoctoral research at Cornell University Medical College. He is now the Executive Vice Dean of Xuanwu Hospital, Capital Medical University. Prof. Tang is dedicated to advancing research on Alzheimer's disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
+      "bio_en": "Prof. Yi Tang received his Ph.D. and M.D. from Peking Union Medical College and conducted postdoctoral research at Cornell University Medical College. He is now the Executive Vice Dean of Xuanwu Hospital, Capital Medical University. Prof. Tang is dedicated to advancing research on Alzheimer's disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
+      "bio_zh": "唐毅教授于北京协和医学院获得医学博士学位，并在美国康奈尔大学医学院从事博士后研究。现任首都医科大学宣武医院常务副院长。唐教授长期致力于阿尔茨海默病及相关认知障碍的研究，聚焦其发病机制与早期干预策略。",
       "education": [
         {
           "period": "2007–08",
-          "detail": "Postdoctoral Associate, Dept. of Neurology and Neuroscience, NewYork-Presbyterian Hospital, Cornell University Medical College"
+          "detail_en": "Postdoctoral Associate, Dept. of Neurology and Neuroscience, NewYork-Presbyterian Hospital, Cornell University Medical College",
+          "detail_zh": "博士后，NewYork-Presbyterian Hospital, Cornell University Medical College 神经病学与神经科学系"
         },
         {
           "period": "2004–06",
-          "detail": "M.D., Peking Union Medical College Hospital, Peking Union Medical College (PUMC)"
+          "detail_en": "M.D., Peking Union Medical College Hospital, Peking Union Medical College (PUMC)",
+          "detail_zh": "医学博士（M.D.），北京协和医学院（PUMC）北京协和医院"
         },
         {
           "period": "2001–04",
-          "detail": "Ph.D., Institute of Basic Medical Sciences, PUMC"
+          "detail_en": "Ph.D., Institute of Basic Medical Sciences, PUMC",
+          "detail_zh": "博士（Ph.D.），北京协和医学院基础医学研究所"
         },
         {
           "period": "2001–06",
-          "detail": "M.D.–Ph.D. program in PUMC, supported by China Medical Board (CMB)"
+          "detail_en": "M.D.–Ph.D. program in PUMC, supported by China Medical Board (CMB)",
+          "detail_zh": "北京协和医学院医学博士—哲学博士（M.D.–Ph.D.）项目，获美国中华医学基金会（CMB）资助"
         },
         {
           "period": "1995–2001",
-          "detail": "B.M., Seven-year medical program, Medical School, Shandong University (SDU)"
+          "detail_en": "B.M., Seven-year medical program, Medical School, Shandong University (SDU)",
+          "detail_zh": "医学学士（B.M.），山东大学医学院七年制医学专业"
         }
       ],
       "positions": [
         {
           "period": "2024–present",
-          "detail": "Executive Vice Dean, Xuanwu Hospital, Capital Medical University"
+          "detail_en": "Executive Vice Dean, Xuanwu Hospital, Capital Medical University",
+          "detail_zh": "常务副院长，首都医科大学宣武医院"
         },
         {
           "period": "2021–present",
-          "detail": "Executive Deputy Director, National Center for Neurological Disorders"
+          "detail_en": "Executive Deputy Director, National Center for Neurological Disorders",
+          "detail_zh": "常务副主任，国家神经疾病医学中心"
         },
         {
           "period": "2020–present",
-          "detail": "Professor in Neurology, Department of Neurology, Xuanwu Hospital, Capital Medical University"
+          "detail_en": "Professor in Neurology, Department of Neurology, Xuanwu Hospital, Capital Medical University",
+          "detail_zh": "神经病学教授，首都医科大学宣武医院神经内科"
         },
         {
           "period": "2019–present",
-          "detail": "Chief Neurologist, Department of Neurology, Xuanwu Hospital, Capital Medical University"
+          "detail_en": "Chief Neurologist, Department of Neurology, Xuanwu Hospital, Capital Medical University",
+          "detail_zh": "主任医师，首都医科大学宣武医院神经内科"
         },
         {
           "period": "2017–present",
-          "detail": "Deputy Director, Key Laboratory of Neurodegenerative Diseases, Ministry of Education"
+          "detail_en": "Deputy Director, Key Laboratory of Neurodegenerative Diseases, Ministry of Education",
+          "detail_zh": "副主任，神经变性病教育部重点实验室"
         },
         {
           "period": "2016–20",
-          "detail": "Associate Professor, Department of Neurology, Xuanwu Hospital, Capital Medical University"
+          "detail_en": "Associate Professor, Department of Neurology, Xuanwu Hospital, Capital Medical University",
+          "detail_zh": "副教授，首都医科大学宣武医院神经内科"
         },
         {
           "period": "2014–19",
-          "detail": "Associate Chief Neurologist, Department of Neurology, Xuanwu Hospital, Capital Medical University"
+          "detail_en": "Associate Chief Neurologist, Department of Neurology, Xuanwu Hospital, Capital Medical University",
+          "detail_zh": "副主任医师，首都医科大学宣武医院神经内科"
         },
         {
           "period": "2009–14",
-          "detail": "Attending Neurologist, Department of Neurology, Xuanwu Hospital, Capital Medical University"
+          "detail_en": "Attending Neurologist, Department of Neurology, Xuanwu Hospital, Capital Medical University",
+          "detail_zh": "主治医师，首都医科大学宣武医院神经内科"
         },
         {
           "period": "2006–09",
-          "detail": "Residency in Neurology, Department of Neurology, Xuanwu Hospital, Capital Medical University"
+          "detail_en": "Residency in Neurology, Department of Neurology, Xuanwu Hospital, Capital Medical University",
+          "detail_zh": "神经内科住院医师，首都医科大学宣武医院神经内科"
         }
       ],
       "memberships": [
         {
           "period": "2021–present",
-          "detail": "President, National Center for Cognitive Disorders, National Health Commission of the PRC"
+          "detail_en": "President, National Center for Cognitive Disorders, National Health Commission of the PRC",
+          "detail_zh": "组长，国家卫生健康委认知障碍疾病专科能力建设项目"
         },
         {
           "period": "2017–present",
-          "detail": "Vice President, Youth Committee, Chinese Neurologist Association"
+          "detail_en": "Vice President, Youth Committee, Chinese Neurologist Association",
+          "detail_zh": "副主任委员，中国医师协会神经内科医师分会青年委员会"
         },
         {
           "period": "2017–present",
-          "detail": "Vice President, Youth Committee, Chinese Society of Neurology"
+          "detail_en": "Vice President, Youth Committee, Chinese Society of Neurology",
+          "detail_zh": "副主任委员，中华医学会神经病学分会青年委员会"
         },
         {
           "period": "2016–19",
-          "detail": "Program Chair, Non-Pharmacological Intervention PIA, Alzheimer's Association"
+          "detail_en": "Program Chair, Non-Pharmacological Intervention PIA, Alzheimer's Association",
+          "detail_zh": "项目主席，国际阿尔茨海默病协会非药物干预专业兴趣组（Non-Pharmacological Intervention PIA, Alzheimer's Association）"
         },
         {
           "period": "2021–present",
-          "detail": "Senior Editor, Journal of Alzheimer's Disease"
+          "detail_en": "Senior Editor, Journal of Alzheimer's Disease",
+          "detail_zh": "资深编辑，Journal of Alzheimer's Disease"
         },
         {
           "period": "2023–present",
-          "detail": "Review Editor, Alzheimer's & Dementia"
+          "detail_en": "Review Editor, Alzheimer's & Dementia",
+          "detail_zh": "评审编辑，Alzheimer's & Dementia"
         },
         {
           "period": "2016–22",
-          "detail": "Senior Associate Editor, Alzheimer's & Dementia"
+          "detail_en": "Senior Associate Editor, Alzheimer's & Dementia",
+          "detail_zh": "资深副编辑，Alzheimer's & Dementia"
         },
         {
           "period": "2007–2009",
-          "detail": "Member, New York Academy of Sciences"
+          "detail_en": "Member, New York Academy of Sciences",
+          "detail_zh": "会员，纽约科学院（New York Academy of Sciences）"
         }
       ]
     }
@@ -210,33 +242,51 @@ window.DATA = {
     {
       "name": "Yi Tang",
       "section": "PI",
-      "experience": "Prof. Yi Tang received his Ph.D. and M.D. from the Peking Union Medical College, and conducted the postdoctoral research in the Cornell University Medical College. He is now the Executive Vice Dean of the Xuanwu Hospital Capital Medical University. Prof. Tang are dedicated to advancing research on Alzheimer’s disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
       "email": "tangyi@xwhosp.org",
       "photo": "yi-tang.jpeg",
-      "source_file": "3.People/1.Principal Investigators/Yi Tang.docx"
+      "source_file": "3.People/1.Principal Investigators/Yi Tang.docx",
+      "experience_en": "Prof. Yi Tang received his Ph.D. and M.D. from the Peking Union Medical College, and conducted the postdoctoral research in the Cornell University Medical College. He is now the Executive Vice Dean of the Xuanwu Hospital Capital Medical University. Prof. Tang are dedicated to advancing research on Alzheimer’s disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
+      "experience_zh": "Prof. Yi Tang received his Ph.D. and M.D. from the Peking Union Medical College, and conducted the postdoctoral research in the Cornell University Medical College. He is now the Executive Vice Dean of the Xuanwu Hospital Capital Medical University. Prof. Tang are dedicated to advancing research on Alzheimer’s disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
+      "name_en": "Yi Tang",
+      "name_zh": "唐毅"
     },
     {
       "name": "Qi Qin",
       "section": "Faculty",
-      "experience": "",
       "email": "qinqibao@126.com",
       "photo": "qi-qin.jpeg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Qin QI.docx",
+      "experience_en": "",
+      "experience_zh": "",
+      "name_en": "Qi Qin",
+      "name_zh": "秦琪",
       "details": [
         {
-          "heading": "Education Experience",
-          "items": [
+          "heading_en": "Education Experience",
+          "heading_zh": "教育经历",
+          "items_en": [
             "Sep 2009 – Jun 2017, Harbin Medical University, Clinical Medicine (Successive postgraduate and doctoral programs of study) / Neurology, PhD"
+          ],
+          "items_zh": [
+            "2009年9月 – 2017年6月，哈尔滨医科大学，临床医学（本硕博连读）/ 神经病学，博士"
           ]
         },
         {
-          "heading": "Professional & Academic Experience",
-          "items": [
+          "heading_en": "Professional & Academic Experience",
+          "heading_zh": "工作与学术经历",
+          "items_en": [
             "Dec 2024 – Present, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Associate Chief Physician",
             "Jan 2022 – Dec 2024, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Attending Physician",
             "Aug 2017 – Dec 2021, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Physician",
             "Aug 2014 – Aug 2016, Thomas Jefferson University, Department of Neurology and Neuroscience, Research Fellow",
             "Jan 2014 – Jul 2014, I.M. Sechenov First Moscow State Medical University, Department of Neurology, Research Fellow"
+          ],
+          "items_zh": [
+            "2024年12月 – 至今，首都医科大学宣武医院神经疾病创新中心，副主任医师",
+            "2022年1月 – 2024年12月，首都医科大学宣武医院神经疾病创新中心，主治医师",
+            "2017年8月 – 2021年12月，首都医科大学宣武医院神经疾病创新中心，医师",
+            "2014年8月 – 2016年8月，Thomas Jefferson University 神经病学与神经科学系，研究员",
+            "2014年1月 – 2014年7月，I.M. Sechenov First Moscow State Medical University 神经病学系，研究员"
           ]
         }
       ]
@@ -244,21 +294,32 @@ window.DATA = {
     {
       "name": "Ouyang Chen",
       "section": "Faculty",
-      "experience": "",
       "email": "chenouyang@xwhosp.org; chenouyang@cibr.ac.cn",
       "photo": "ouyang-chen.jpeg",
       "source_file": "3.People/2.Faculty/Ouyang Chen.docx",
+      "experience_en": "",
+      "experience_zh": "",
+      "name_en": "Ouyang Chen",
+      "name_zh": "陈欧阳",
       "details": [
         {
-          "heading": "Position",
-          "items": [
+          "heading_en": "Position",
+          "heading_zh": "职位",
+          "items_en": [
             "Associate Professor, Department of Neurology, Xuanwu Hospital, Capital Medical University"
+          ],
+          "items_zh": [
+            "副教授，首都医科大学宣武医院神经内科"
           ]
         },
         {
-          "heading": "Education Experience",
-          "items": [
+          "heading_en": "Education Experience",
+          "heading_zh": "教育经历",
+          "items_en": [
             "Ph.D., Duke University"
+          ],
+          "items_zh": [
+            "博士（Ph.D.），Duke University"
           ]
         }
       ]
@@ -266,90 +327,123 @@ window.DATA = {
     {
       "name": "Qingyu Wang",
       "section": "Postdoc",
-      "experience": "Ph.D., Peking Union Medical College",
       "email": "wqingyu1996@163.com",
       "photo": "qingyu-wang.jpeg",
-      "source_file": "3.People/3.Postdocs/Postdoc-Qingyu Wang.docx"
+      "source_file": "3.People/3.Postdocs/Postdoc-Qingyu Wang.docx",
+      "experience_en": "Ph.D., Peking Union Medical College",
+      "experience_zh": "博士（Ph.D.），北京协和医学院",
+      "name_en": "Qingyu Wang",
+      "name_zh": "王晴钰"
     },
     {
       "name": "Yuan-Yuan Chen",
       "section": "Postdoc",
-      "experience": "Ph.D., Northwest University",
       "email": "chenyuannwu@163.com",
       "photo": "yuan-yuan-chen.jpeg",
-      "source_file": "3.People/3.Postdocs/Yuan-Yuan Chen.docx"
+      "source_file": "3.People/3.Postdocs/Yuan-Yuan Chen.docx",
+      "experience_en": "Ph.D., Northwest University",
+      "experience_zh": "博士（Ph.D.），西北大学",
+      "name_en": "Yuan-Yuan Chen",
+      "name_zh": "陈圆圆"
     },
     {
       "name": "Shaofei Jiang",
       "section": "Postdoc",
-      "experience": "Ph.D., Academy of Military Science. M.S., Institute of Psychology, Chinese Academy Sciences.",
       "email": "jiangshaofei163@163.com",
       "photo": "shaofei-jiang.jpeg",
-      "source_file": "3.People/2.Faculty/Faculty-Shaofei Jiang.docx"
+      "source_file": "3.People/2.Faculty/Faculty-Shaofei Jiang.docx",
+      "experience_en": "Ph.D., Academy of Military Science. M.S., Institute of Psychology, Chinese Academy Sciences.",
+      "experience_zh": "博士（Ph.D.），军事科学院；硕士（M.S.），中国科学院心理研究所",
+      "name_en": "Shaofei Jiang",
+      "name_zh": "姜劭斐"
     },
     {
       "name": "Dan Li",
       "section": "Student",
-      "experience": "Ph.D. student, Hebei Medical University",
       "email": "lidan3723@163.com",
       "photo": "dan-li.jpeg",
-      "source_file": "3.People/4.Students/Dan Li.docx"
+      "source_file": "3.People/4.Students/Dan Li.docx",
+      "experience_en": "Ph.D. student, Hebei Medical University",
+      "experience_zh": "博士研究生，Hebei Medical University",
+      "name_en": "Dan Li",
+      "name_zh": "李丹"
     },
     {
       "name": "Han-Chen Yang",
       "section": "Student",
-      "experience": "Ph.D. student, Capital Medical University",
       "email": "yanghanchen1997@163.com",
       "photo": "han-chen-yang.jpg",
-      "source_file": "3.People/4.Students/Han-Chen Yang.docx"
+      "source_file": "3.People/4.Students/Han-Chen Yang.docx",
+      "experience_en": "Ph.D. student, Capital Medical University",
+      "experience_zh": "博士研究生，Capital Medical University",
+      "name_en": "Han-Chen Yang",
+      "name_zh": "杨翰晨"
     },
     {
       "name": "Junjie Hu",
       "section": "Student",
-      "experience": "Graduate student, Capital Medical University",
       "email": "junjie_hu2023@163.com",
       "photo": "junjie-hu.jpeg",
-      "source_file": "3.People/4.Students/Junjie Hu.docx"
+      "source_file": "3.People/4.Students/Junjie Hu.docx",
+      "experience_en": "Graduate student, Capital Medical University",
+      "experience_zh": "研究生，Capital Medical University",
+      "name_en": "Junjie Hu",
+      "name_zh": "胡俊杰"
     },
     {
       "name": "Pei-Yang Gao",
       "section": "Student",
-      "experience": "Ph.D. student, Capital Medical University",
       "email": "py_gao@163.com",
       "photo": "pei-yang-gao.jpeg",
-      "source_file": "3.People/4.Students/Pei-Yang Gao.docx"
+      "source_file": "3.People/4.Students/Pei-Yang Gao.docx",
+      "experience_en": "Ph.D. student, Capital Medical University",
+      "experience_zh": "博士研究生，Capital Medical University",
+      "name_en": "Pei-Yang Gao",
+      "name_zh": "高佩阳"
     },
     {
       "name": "Rui-Yang Li",
       "section": "Student",
-      "experience": "Ph.D. student, Capital Medical University",
       "email": "li_ry1219@163.com",
       "photo": "rui-yang-li.jpeg",
-      "source_file": "3.People/4.Students/Rui-Yang Li.docx"
+      "source_file": "3.People/4.Students/Rui-Yang Li.docx",
+      "experience_en": "Ph.D. student, Capital Medical University",
+      "experience_zh": "博士研究生，Capital Medical University",
+      "name_en": "Rui-Yang Li",
+      "name_zh": "李瑞洋"
     },
     {
       "name": "Run Di",
       "section": "Student",
-      "experience": "Ph.D. student, Capital Medical University",
       "email": "dirun@cibr.ac.com",
       "photo": "run-di.jpg",
-      "source_file": "3.People/4.Students/Run Di.docx"
+      "source_file": "3.People/4.Students/Run Di.docx",
+      "experience_en": "Ph.D. student, Capital Medical University",
+      "experience_zh": "博士研究生，Capital Medical University",
+      "name_en": "Run Di",
+      "name_zh": "狄润"
     },
     {
       "name": "Yunsi Yin",
       "section": "Student",
-      "experience": "Ph.D. student, Capital Medical University",
       "email": "darayin1998@163.com",
       "photo": "yunsi-yin.jpg",
-      "source_file": "3.People/4.Students/Student-Yunsi Yin.docx"
+      "source_file": "3.People/4.Students/Student-Yunsi Yin.docx",
+      "experience_en": "Ph.D. student, Capital Medical University",
+      "experience_zh": "博士研究生，Capital Medical University",
+      "name_en": "Yunsi Yin",
+      "name_zh": "尹筠思"
     },
     {
       "name": "Jiang-Ting Li",
       "section": "Student",
-      "experience": "Ph.D. student, Capital Medical University",
       "email": "li_jiangting@163.com",
       "photo": "jiang-ting-li.jpeg",
-      "source_file": "Tanglab-2025.9.19增加内容/People/Jiang-ting Li.docx"
+      "source_file": "Tanglab-2025.9.19增加内容/People/Jiang-ting Li.docx",
+      "experience_en": "Ph.D. student, Capital Medical University",
+      "experience_zh": "博士研究生，Capital Medical University",
+      "name_en": "Jiang-Ting Li",
+      "name_zh": "李江婷"
     },
     {
       "name": "Qian-Ying Liu",
@@ -357,31 +451,43 @@ window.DATA = {
       "MISSING": true,
       "email": "liuqianying22@163.com",
       "photo": "qianying-liu.jpeg",
-      "experience": "Ph.D. student, Capital Medical University"
+      "experience_en": "Ph.D. student, Capital Medical University",
+      "experience_zh": "博士研究生，Capital Medical University",
+      "name_en": "Qian-Ying Liu",
+      "name_zh": "刘倩影"
     },
     {
       "name": "Weiyi Song",
       "section": "Student",
-      "experience": "Undergraduate student, Capital Medical University",
       "email": "swy64022@126.com",
       "photo": "weiyi-song.jpeg",
-      "source_file": "Tanglab-2025.9.19增加内容/People/Weiyi Song.docx"
+      "source_file": "Tanglab-2025.9.19增加内容/People/Weiyi Song.docx",
+      "experience_en": "Undergraduate student, Capital Medical University",
+      "experience_zh": "本科生，Capital Medical University",
+      "name_en": "Weiyi Song",
+      "name_zh": "宋维屹"
     },
     {
       "name": "Yu-Sen Deng",
       "section": "Student",
-      "experience": "Ph.D. student, Hebei Medical University",
       "email": "dengyusen19@mails.ucas.ac.cn",
       "photo": "yu-sen-deng.jpeg",
-      "source_file": "Tanglab-2025.9.19增加内容/People/Yu-sen Deng.docx"
+      "source_file": "Tanglab-2025.9.19增加内容/People/Yu-sen Deng.docx",
+      "experience_en": "Ph.D. student, Hebei Medical University",
+      "experience_zh": "博士研究生，Hebei Medical University",
+      "name_en": "Yu-Sen Deng",
+      "name_zh": "邓钰森"
     },
     {
       "name": "Yu-Huan Cheng",
       "section": "Student",
-      "experience": "Graduate student, Capital Medical University",
       "email": "chengyuhuan233@163.com",
       "photo": "yu-huan-cheng.jpeg",
-      "source_file": "Tanglab-2026.5.18-website-更新/Student-Cheng .docx"
+      "source_file": "Tanglab-2026.5.18-website-更新/Student-Cheng .docx",
+      "experience_en": "Graduate student, Capital Medical University",
+      "experience_zh": "研究生，Capital Medical University",
+      "name_en": "Yu-Huan Cheng",
+      "name_zh": "程宇寰"
     },
     {
       "name": "Miao Pang",
@@ -389,77 +495,107 @@ window.DATA = {
       "MISSING": true,
       "email": "pangmiao123@outlook.com",
       "photo": "miao-pang.jpeg",
-      "experience": "Ph.D. student, Capital Medical University"
+      "experience_en": "Ph.D. student, Capital Medical University",
+      "experience_zh": "博士研究生，Capital Medical University",
+      "name_en": "Miao Pang",
+      "name_zh": "庞淼"
     },
     {
       "name": "Lanzhou Xu",
       "section": "Student",
-      "experience": "Graduate student, Capital Medical University",
       "email": "xulanzhou123@163.com",
       "photo": "lanzhou-xu.png",
-      "source_file": "Tanglab-2026.5.18-website-更新/Student-Xu.docx"
+      "source_file": "Tanglab-2026.5.18-website-更新/Student-Xu.docx",
+      "experience_en": "Graduate student, Capital Medical University",
+      "experience_zh": "研究生，Capital Medical University",
+      "name_en": "Lanzhou Xu",
+      "name_zh": "许兰舟"
     },
     {
       "name": "Xing-Can Xu",
       "section": "Student",
-      "experience": "Graduate student, Capital Medical University",
       "email": "yeah_iamll@163.com",
       "photo": "xing-can-xu.jpg",
-      "source_file": "Tanglab-2025.9.19增加内容/People/Xing-Can Xu.docx"
+      "source_file": "Tanglab-2025.9.19增加内容/People/Xing-Can Xu.docx",
+      "experience_en": "Graduate student, Capital Medical University",
+      "experience_zh": "研究生，Capital Medical University",
+      "name_en": "Xing-Can Xu",
+      "name_zh": "徐星灿"
     },
     {
       "name": "Cewen Zheng",
       "section": "Research Assistant",
-      "experience": "Chinese Institute for Brain Research, Beijing",
       "email": "zhengcewen@cibr.ac.cn",
       "photo": "cewen-zheng.png",
-      "source_file": "Tanglab-2025.9.19增加内容/People/Cewen Zheng.docx"
+      "source_file": "Tanglab-2025.9.19增加内容/People/Cewen Zheng.docx",
+      "experience_en": "Chinese Institute for Brain Research, Beijing",
+      "experience_zh": "北京脑科学与类脑研究所",
+      "name_en": "Cewen Zheng",
+      "name_zh": "郑策文"
     },
     {
       "name": "Jing Zhang",
       "section": "Research Assistant",
-      "experience": "Johns Hopkins University school of medicine Dermatology Department",
       "email": "jzhan441@gmail.com",
       "photo": "jing-zhang.jpeg",
-      "source_file": "Tanglab-2025.9.19增加内容/People/Jing Zhang.docx"
+      "source_file": "Tanglab-2025.9.19增加内容/People/Jing Zhang.docx",
+      "experience_en": "Johns Hopkins University school of medicine Dermatology Department",
+      "experience_zh": "Johns Hopkins University School of Medicine, Dermatology Department",
+      "name_en": "Jing Zhang",
+      "name_zh": "张婧"
     },
     {
       "name": "Qian-Ni Yang",
       "section": "Research Assistant",
-      "experience": "Chinese Institute for Brain Research, Beijing",
       "email": "yangqianni@cibr.ac.cn",
       "photo": "qian-ni-yang.jpeg",
-      "source_file": "Tanglab-2025.9.19增加内容/People/Qian-ni Yang.docx"
+      "source_file": "Tanglab-2025.9.19增加内容/People/Qian-ni Yang.docx",
+      "experience_en": "Chinese Institute for Brain Research, Beijing",
+      "experience_zh": "北京脑科学与类脑研究所",
+      "name_en": "Qian-Ni Yang",
+      "name_zh": "杨茜妮"
     },
     {
       "name": "Yuan Gao",
       "section": "Research Assistant",
-      "experience": "M.S., Georgetown University",
       "email": "gaoyuan1@cibr.ac.cn",
       "photo": "yuan-gao.png",
-      "source_file": "Tanglab-2026.5.18-website-更新/Research Assistants-Gao.docx"
+      "source_file": "Tanglab-2026.5.18-website-更新/Research Assistants-Gao.docx",
+      "experience_en": "M.S., Georgetown University",
+      "experience_zh": "硕士（M.S.），Georgetown University",
+      "name_en": "Yuan Gao",
+      "name_zh": "高远"
     },
     {
       "name": "Wei-Ying Wang",
       "section": "Research Assistant",
-      "experience": "MSc. Freie Universität Berlin",
       "email": "wang.weiying@foxmail.com",
       "photo": "wei-ying-wang.jpeg",
-      "source_file": "Tanglab-2026.5.18-website-更新/Research Assistants-Wang.docx"
+      "source_file": "Tanglab-2026.5.18-website-更新/Research Assistants-Wang.docx",
+      "experience_en": "MSc. Freie Universität Berlin",
+      "experience_zh": "硕士（MSc.），Freie Universität Berlin",
+      "name_en": "Wei-Ying Wang",
+      "name_zh": "王炜滢"
     },
     {
       "name": "Chuheng Jiang",
       "section": "Research Assistant",
-      "experience": "New York University",
       "email": "cj2353@nyu.edu",
-      "photo": "chuheng-jiang.jpg"
+      "photo": "chuheng-jiang.jpg",
+      "experience_en": "New York University",
+      "experience_zh": "New York University",
+      "name_en": "Chuheng Jiang",
+      "name_zh": "姜楚珩"
     },
     {
       "name": "Zai-Han Li",
       "section": "Postdoc",
-      "experience": "Ph.D., University of Chinese Academy of Sciences",
       "email": "lizaihann@outlook.com",
-      "photo": "zai-han-li.jpeg"
+      "photo": "zai-han-li.jpeg",
+      "experience_en": "Ph.D., University of Chinese Academy of Sciences",
+      "experience_zh": "博士（Ph.D.），中国科学院大学",
+      "name_en": "Zai-Han Li",
+      "name_zh": "李在涵"
     }
   ],
   "publications": [
@@ -3443,27 +3579,36 @@ window.DATA = {
     }
   ],
   "research": {
-    "intro": "Our research is dedicated to the in-depth study of Alzheimer's disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies. We integrate molecular biology, biochemistry, bioinformatics, electrophysiology, and behavioral analysis, and combine animal models, human cell models, neuroimaging, and epidemiology to advance both the scientific understanding and the clinical application of cognitive disorders.",
+    "intro_en": "Our research is dedicated to the in-depth study of Alzheimer's disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies. We integrate molecular biology, biochemistry, bioinformatics, electrophysiology, and behavioral analysis, and combine animal models, human cell models, neuroimaging, and epidemiology to advance both the scientific understanding and the clinical application of cognitive disorders.",
+    "intro_zh": "本课题组致力于深入研究阿尔茨海默病及相关认知障碍，聚焦其发病机制与早期干预策略。我们整合分子生物学、生物化学、生物信息学、电生理学与行为学分析，并结合动物模型、人源细胞模型、神经影像与流行病学方法，推动认知障碍领域的科学认识与临床应用。",
     "areas": [
       {
         "icon": "🧬",
-        "title": "Pathogenesis of Alzheimer's disease",
-        "desc": "Using animal models and human cell models together with advanced molecular biology techniques to comprehensively investigate the molecular mechanisms underlying Alzheimer's disease."
+        "title_en": "Pathogenesis of Alzheimer's disease",
+        "title_zh": "阿尔茨海默病的发病机制",
+        "desc_en": "Using animal models and human cell models together with advanced molecular biology techniques to comprehensively investigate the molecular mechanisms underlying Alzheimer's disease.",
+        "desc_zh": "利用动物模型与人源细胞模型，结合先进的分子生物学技术，全面探究阿尔茨海默病的分子机制。"
       },
       {
         "icon": "⚡",
-        "title": "Non-Pharmacological Intervention",
-        "desc": "Exploring cognitive training and transcranial electrical stimulation for their efficacy and the underlying neural mechanisms in improving cognitive function."
+        "title_en": "Non-Pharmacological Intervention",
+        "title_zh": "非药物干预",
+        "desc_en": "Exploring cognitive training and transcranial electrical stimulation for their efficacy and the underlying neural mechanisms in improving cognitive function.",
+        "desc_zh": "探索认知训练与经颅电刺激在改善认知功能方面的疗效及其潜在的神经机制。"
       },
       {
         "icon": "📊",
-        "title": "Electrophysiology & Early Diagnosis",
-        "desc": "Employing neuro-electrophysiological and perceptual technologies to discover new avenues for the early diagnosis and treatment of cognitive disorders."
+        "title_en": "Electrophysiology & Early Diagnosis",
+        "title_zh": "电生理与早期诊断",
+        "desc_en": "Employing neuro-electrophysiological and perceptual technologies to discover new avenues for the early diagnosis and treatment of cognitive disorders.",
+        "desc_zh": "运用神经电生理与感知觉技术，为认知障碍的早期诊断与治疗开辟新途径。"
       },
       {
         "icon": "🌏",
-        "title": "Nationwide Multicenter Cognitive Cohort",
-        "desc": "Conducting a nationwide multicenter cognitive cohort study to reveal the epidemiological characteristics and disease burden of cognitive disorders in China."
+        "title_en": "Nationwide Multicenter Cognitive Cohort",
+        "title_zh": "全国多中心认知队列",
+        "desc_en": "Conducting a nationwide multicenter cognitive cohort study to reveal the epidemiological characteristics and disease burden of cognitive disorders in China.",
+        "desc_zh": "开展全国多中心认知队列研究，揭示我国认知障碍的流行病学特征与疾病负担。"
       }
     ]
   }

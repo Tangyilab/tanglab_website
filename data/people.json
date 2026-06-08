@@ -2,33 +2,51 @@
   {
     "name": "Yi Tang",
     "section": "PI",
-    "experience": "Prof. Yi Tang received his Ph.D. and M.D. from the Peking Union Medical College, and conducted the postdoctoral research in the Cornell University Medical College. He is now the Executive Vice Dean of the Xuanwu Hospital Capital Medical University. Prof. Tang are dedicated to advancing research on Alzheimer’s disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
     "email": "tangyi@xwhosp.org",
     "photo": "yi-tang.jpeg",
-    "source_file": "3.People/1.Principal Investigators/Yi Tang.docx"
+    "source_file": "3.People/1.Principal Investigators/Yi Tang.docx",
+    "experience_en": "Prof. Yi Tang received his Ph.D. and M.D. from the Peking Union Medical College, and conducted the postdoctoral research in the Cornell University Medical College. He is now the Executive Vice Dean of the Xuanwu Hospital Capital Medical University. Prof. Tang are dedicated to advancing research on Alzheimer’s disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
+    "experience_zh": "Prof. Yi Tang received his Ph.D. and M.D. from the Peking Union Medical College, and conducted the postdoctoral research in the Cornell University Medical College. He is now the Executive Vice Dean of the Xuanwu Hospital Capital Medical University. Prof. Tang are dedicated to advancing research on Alzheimer’s disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
+    "name_en": "Yi Tang",
+    "name_zh": "唐毅"
   },
   {
     "name": "Qi Qin",
     "section": "Faculty",
-    "experience": "",
     "email": "qinqibao@126.com",
     "photo": "qi-qin.jpeg",
     "source_file": "Tanglab-2025.9.19增加内容/People/Qin QI.docx",
+    "experience_en": "",
+    "experience_zh": "",
+    "name_en": "Qi Qin",
+    "name_zh": "秦琪",
     "details": [
       {
-        "heading": "Education Experience",
-        "items": [
+        "heading_en": "Education Experience",
+        "heading_zh": "教育经历",
+        "items_en": [
           "Sep 2009 – Jun 2017, Harbin Medical University, Clinical Medicine (Successive postgraduate and doctoral programs of study) / Neurology, PhD"
+        ],
+        "items_zh": [
+          "2009年9月 – 2017年6月，哈尔滨医科大学，临床医学（本硕博连读）/ 神经病学，博士"
         ]
       },
       {
-        "heading": "Professional & Academic Experience",
-        "items": [
+        "heading_en": "Professional & Academic Experience",
+        "heading_zh": "工作与学术经历",
+        "items_en": [
           "Dec 2024 – Present, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Associate Chief Physician",
           "Jan 2022 – Dec 2024, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Attending Physician",
           "Aug 2017 – Dec 2021, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Physician",
           "Aug 2014 – Aug 2016, Thomas Jefferson University, Department of Neurology and Neuroscience, Research Fellow",
           "Jan 2014 – Jul 2014, I.M. Sechenov First Moscow State Medical University, Department of Neurology, Research Fellow"
+        ],
+        "items_zh": [
+          "2024年12月 – 至今，首都医科大学宣武医院神经疾病创新中心，副主任医师",
+          "2022年1月 – 2024年12月，首都医科大学宣武医院神经疾病创新中心，主治医师",
+          "2017年8月 – 2021年12月，首都医科大学宣武医院神经疾病创新中心，医师",
+          "2014年8月 – 2016年8月，Thomas Jefferson University 神经病学与神经科学系，研究员",
+          "2014年1月 – 2014年7月，I.M. Sechenov First Moscow State Medical University 神经病学系，研究员"
         ]
       }
     ]
@@ -36,21 +54,32 @@
   {
     "name": "Ouyang Chen",
     "section": "Faculty",
-    "experience": "",
     "email": "chenouyang@xwhosp.org; chenouyang@cibr.ac.cn",
     "photo": "ouyang-chen.jpeg",
     "source_file": "3.People/2.Faculty/Ouyang Chen.docx",
+    "experience_en": "",
+    "experience_zh": "",
+    "name_en": "Ouyang Chen",
+    "name_zh": "陈欧阳",
     "details": [
       {
-        "heading": "Position",
-        "items": [
+        "heading_en": "Position",
+        "heading_zh": "职位",
+        "items_en": [
           "Associate Professor, Department of Neurology, Xuanwu Hospital, Capital Medical University"
+        ],
+        "items_zh": [
+          "副教授，首都医科大学宣武医院神经内科"
         ]
       },
       {
-        "heading": "Education Experience",
-        "items": [
+        "heading_en": "Education Experience",
+        "heading_zh": "教育经历",
+        "items_en": [
           "Ph.D., Duke University"
+        ],
+        "items_zh": [
+          "博士（Ph.D.），Duke University"
         ]
       }
     ]
@@ -58,90 +87,123 @@
   {
     "name": "Qingyu Wang",
     "section": "Postdoc",
-    "experience": "Ph.D., Peking Union Medical College",
     "email": "wqingyu1996@163.com",
     "photo": "qingyu-wang.jpeg",
-    "source_file": "3.People/3.Postdocs/Postdoc-Qingyu Wang.docx"
+    "source_file": "3.People/3.Postdocs/Postdoc-Qingyu Wang.docx",
+    "experience_en": "Ph.D., Peking Union Medical College",
+    "experience_zh": "博士（Ph.D.），北京协和医学院",
+    "name_en": "Qingyu Wang",
+    "name_zh": "王晴钰"
   },
   {
     "name": "Yuan-Yuan Chen",
     "section": "Postdoc",
-    "experience": "Ph.D., Northwest University",
     "email": "chenyuannwu@163.com",
     "photo": "yuan-yuan-chen.jpeg",
-    "source_file": "3.People/3.Postdocs/Yuan-Yuan Chen.docx"
+    "source_file": "3.People/3.Postdocs/Yuan-Yuan Chen.docx",
+    "experience_en": "Ph.D., Northwest University",
+    "experience_zh": "博士（Ph.D.），西北大学",
+    "name_en": "Yuan-Yuan Chen",
+    "name_zh": "陈圆圆"
   },
   {
     "name": "Shaofei Jiang",
     "section": "Postdoc",
-    "experience": "Ph.D., Academy of Military Science. M.S., Institute of Psychology, Chinese Academy Sciences.",
     "email": "jiangshaofei163@163.com",
     "photo": "shaofei-jiang.jpeg",
-    "source_file": "3.People/2.Faculty/Faculty-Shaofei Jiang.docx"
+    "source_file": "3.People/2.Faculty/Faculty-Shaofei Jiang.docx",
+    "experience_en": "Ph.D., Academy of Military Science. M.S., Institute of Psychology, Chinese Academy Sciences.",
+    "experience_zh": "博士（Ph.D.），军事科学院；硕士（M.S.），中国科学院心理研究所",
+    "name_en": "Shaofei Jiang",
+    "name_zh": "姜劭斐"
   },
   {
     "name": "Dan Li",
     "section": "Student",
-    "experience": "Ph.D. student, Hebei Medical University",
     "email": "lidan3723@163.com",
     "photo": "dan-li.jpeg",
-    "source_file": "3.People/4.Students/Dan Li.docx"
+    "source_file": "3.People/4.Students/Dan Li.docx",
+    "experience_en": "Ph.D. student, Hebei Medical University",
+    "experience_zh": "博士研究生，Hebei Medical University",
+    "name_en": "Dan Li",
+    "name_zh": "李丹"
   },
   {
     "name": "Han-Chen Yang",
     "section": "Student",
-    "experience": "Ph.D. student, Capital Medical University",
     "email": "yanghanchen1997@163.com",
     "photo": "han-chen-yang.jpg",
-    "source_file": "3.People/4.Students/Han-Chen Yang.docx"
+    "source_file": "3.People/4.Students/Han-Chen Yang.docx",
+    "experience_en": "Ph.D. student, Capital Medical University",
+    "experience_zh": "博士研究生，Capital Medical University",
+    "name_en": "Han-Chen Yang",
+    "name_zh": "杨翰晨"
   },
   {
     "name": "Junjie Hu",
     "section": "Student",
-    "experience": "Graduate student, Capital Medical University",
     "email": "junjie_hu2023@163.com",
     "photo": "junjie-hu.jpeg",
-    "source_file": "3.People/4.Students/Junjie Hu.docx"
+    "source_file": "3.People/4.Students/Junjie Hu.docx",
+    "experience_en": "Graduate student, Capital Medical University",
+    "experience_zh": "研究生，Capital Medical University",
+    "name_en": "Junjie Hu",
+    "name_zh": "胡俊杰"
   },
   {
     "name": "Pei-Yang Gao",
     "section": "Student",
-    "experience": "Ph.D. student, Capital Medical University",
     "email": "py_gao@163.com",
     "photo": "pei-yang-gao.jpeg",
-    "source_file": "3.People/4.Students/Pei-Yang Gao.docx"
+    "source_file": "3.People/4.Students/Pei-Yang Gao.docx",
+    "experience_en": "Ph.D. student, Capital Medical University",
+    "experience_zh": "博士研究生，Capital Medical University",
+    "name_en": "Pei-Yang Gao",
+    "name_zh": "高佩阳"
   },
   {
     "name": "Rui-Yang Li",
     "section": "Student",
-    "experience": "Ph.D. student, Capital Medical University",
     "email": "li_ry1219@163.com",
     "photo": "rui-yang-li.jpeg",
-    "source_file": "3.People/4.Students/Rui-Yang Li.docx"
+    "source_file": "3.People/4.Students/Rui-Yang Li.docx",
+    "experience_en": "Ph.D. student, Capital Medical University",
+    "experience_zh": "博士研究生，Capital Medical University",
+    "name_en": "Rui-Yang Li",
+    "name_zh": "李瑞洋"
   },
   {
     "name": "Run Di",
     "section": "Student",
-    "experience": "Ph.D. student, Capital Medical University",
     "email": "dirun@cibr.ac.com",
     "photo": "run-di.jpg",
-    "source_file": "3.People/4.Students/Run Di.docx"
+    "source_file": "3.People/4.Students/Run Di.docx",
+    "experience_en": "Ph.D. student, Capital Medical University",
+    "experience_zh": "博士研究生，Capital Medical University",
+    "name_en": "Run Di",
+    "name_zh": "狄润"
   },
   {
     "name": "Yunsi Yin",
     "section": "Student",
-    "experience": "Ph.D. student, Capital Medical University",
     "email": "darayin1998@163.com",
     "photo": "yunsi-yin.jpg",
-    "source_file": "3.People/4.Students/Student-Yunsi Yin.docx"
+    "source_file": "3.People/4.Students/Student-Yunsi Yin.docx",
+    "experience_en": "Ph.D. student, Capital Medical University",
+    "experience_zh": "博士研究生，Capital Medical University",
+    "name_en": "Yunsi Yin",
+    "name_zh": "尹筠思"
   },
   {
     "name": "Jiang-Ting Li",
     "section": "Student",
-    "experience": "Ph.D. student, Capital Medical University",
     "email": "li_jiangting@163.com",
     "photo": "jiang-ting-li.jpeg",
-    "source_file": "Tanglab-2025.9.19增加内容/People/Jiang-ting Li.docx"
+    "source_file": "Tanglab-2025.9.19增加内容/People/Jiang-ting Li.docx",
+    "experience_en": "Ph.D. student, Capital Medical University",
+    "experience_zh": "博士研究生，Capital Medical University",
+    "name_en": "Jiang-Ting Li",
+    "name_zh": "李江婷"
   },
   {
     "name": "Qian-Ying Liu",
@@ -149,31 +211,43 @@
     "MISSING": true,
     "email": "liuqianying22@163.com",
     "photo": "qianying-liu.jpeg",
-    "experience": "Ph.D. student, Capital Medical University"
+    "experience_en": "Ph.D. student, Capital Medical University",
+    "experience_zh": "博士研究生，Capital Medical University",
+    "name_en": "Qian-Ying Liu",
+    "name_zh": "刘倩影"
   },
   {
     "name": "Weiyi Song",
     "section": "Student",
-    "experience": "Undergraduate student, Capital Medical University",
     "email": "swy64022@126.com",
     "photo": "weiyi-song.jpeg",
-    "source_file": "Tanglab-2025.9.19增加内容/People/Weiyi Song.docx"
+    "source_file": "Tanglab-2025.9.19增加内容/People/Weiyi Song.docx",
+    "experience_en": "Undergraduate student, Capital Medical University",
+    "experience_zh": "本科生，Capital Medical University",
+    "name_en": "Weiyi Song",
+    "name_zh": "宋维屹"
   },
   {
     "name": "Yu-Sen Deng",
     "section": "Student",
-    "experience": "Ph.D. student, Hebei Medical University",
     "email": "dengyusen19@mails.ucas.ac.cn",
     "photo": "yu-sen-deng.jpeg",
-    "source_file": "Tanglab-2025.9.19增加内容/People/Yu-sen Deng.docx"
+    "source_file": "Tanglab-2025.9.19增加内容/People/Yu-sen Deng.docx",
+    "experience_en": "Ph.D. student, Hebei Medical University",
+    "experience_zh": "博士研究生，Hebei Medical University",
+    "name_en": "Yu-Sen Deng",
+    "name_zh": "邓钰森"
   },
   {
     "name": "Yu-Huan Cheng",
     "section": "Student",
-    "experience": "Graduate student, Capital Medical University",
     "email": "chengyuhuan233@163.com",
     "photo": "yu-huan-cheng.jpeg",
-    "source_file": "Tanglab-2026.5.18-website-更新/Student-Cheng .docx"
+    "source_file": "Tanglab-2026.5.18-website-更新/Student-Cheng .docx",
+    "experience_en": "Graduate student, Capital Medical University",
+    "experience_zh": "研究生，Capital Medical University",
+    "name_en": "Yu-Huan Cheng",
+    "name_zh": "程宇寰"
   },
   {
     "name": "Miao Pang",
@@ -181,76 +255,106 @@
     "MISSING": true,
     "email": "pangmiao123@outlook.com",
     "photo": "miao-pang.jpeg",
-    "experience": "Ph.D. student, Capital Medical University"
+    "experience_en": "Ph.D. student, Capital Medical University",
+    "experience_zh": "博士研究生，Capital Medical University",
+    "name_en": "Miao Pang",
+    "name_zh": "庞淼"
   },
   {
     "name": "Lanzhou Xu",
     "section": "Student",
-    "experience": "Graduate student, Capital Medical University",
     "email": "xulanzhou123@163.com",
     "photo": "lanzhou-xu.png",
-    "source_file": "Tanglab-2026.5.18-website-更新/Student-Xu.docx"
+    "source_file": "Tanglab-2026.5.18-website-更新/Student-Xu.docx",
+    "experience_en": "Graduate student, Capital Medical University",
+    "experience_zh": "研究生，Capital Medical University",
+    "name_en": "Lanzhou Xu",
+    "name_zh": "许兰舟"
   },
   {
     "name": "Xing-Can Xu",
     "section": "Student",
-    "experience": "Graduate student, Capital Medical University",
     "email": "yeah_iamll@163.com",
     "photo": "xing-can-xu.jpg",
-    "source_file": "Tanglab-2025.9.19增加内容/People/Xing-Can Xu.docx"
+    "source_file": "Tanglab-2025.9.19增加内容/People/Xing-Can Xu.docx",
+    "experience_en": "Graduate student, Capital Medical University",
+    "experience_zh": "研究生，Capital Medical University",
+    "name_en": "Xing-Can Xu",
+    "name_zh": "徐星灿"
   },
   {
     "name": "Cewen Zheng",
     "section": "Research Assistant",
-    "experience": "Chinese Institute for Brain Research, Beijing",
     "email": "zhengcewen@cibr.ac.cn",
     "photo": "cewen-zheng.png",
-    "source_file": "Tanglab-2025.9.19增加内容/People/Cewen Zheng.docx"
+    "source_file": "Tanglab-2025.9.19增加内容/People/Cewen Zheng.docx",
+    "experience_en": "Chinese Institute for Brain Research, Beijing",
+    "experience_zh": "北京脑科学与类脑研究所",
+    "name_en": "Cewen Zheng",
+    "name_zh": "郑策文"
   },
   {
     "name": "Jing Zhang",
     "section": "Research Assistant",
-    "experience": "Johns Hopkins University school of medicine Dermatology Department",
     "email": "jzhan441@gmail.com",
     "photo": "jing-zhang.jpeg",
-    "source_file": "Tanglab-2025.9.19增加内容/People/Jing Zhang.docx"
+    "source_file": "Tanglab-2025.9.19增加内容/People/Jing Zhang.docx",
+    "experience_en": "Johns Hopkins University school of medicine Dermatology Department",
+    "experience_zh": "Johns Hopkins University School of Medicine, Dermatology Department",
+    "name_en": "Jing Zhang",
+    "name_zh": "张婧"
   },
   {
     "name": "Qian-Ni Yang",
     "section": "Research Assistant",
-    "experience": "Chinese Institute for Brain Research, Beijing",
     "email": "yangqianni@cibr.ac.cn",
     "photo": "qian-ni-yang.jpeg",
-    "source_file": "Tanglab-2025.9.19增加内容/People/Qian-ni Yang.docx"
+    "source_file": "Tanglab-2025.9.19增加内容/People/Qian-ni Yang.docx",
+    "experience_en": "Chinese Institute for Brain Research, Beijing",
+    "experience_zh": "北京脑科学与类脑研究所",
+    "name_en": "Qian-Ni Yang",
+    "name_zh": "杨茜妮"
   },
   {
     "name": "Yuan Gao",
     "section": "Research Assistant",
-    "experience": "M.S., Georgetown University",
     "email": "gaoyuan1@cibr.ac.cn",
     "photo": "yuan-gao.png",
-    "source_file": "Tanglab-2026.5.18-website-更新/Research Assistants-Gao.docx"
+    "source_file": "Tanglab-2026.5.18-website-更新/Research Assistants-Gao.docx",
+    "experience_en": "M.S., Georgetown University",
+    "experience_zh": "硕士（M.S.），Georgetown University",
+    "name_en": "Yuan Gao",
+    "name_zh": "高远"
   },
   {
     "name": "Wei-Ying Wang",
     "section": "Research Assistant",
-    "experience": "MSc. Freie Universität Berlin",
     "email": "wang.weiying@foxmail.com",
     "photo": "wei-ying-wang.jpeg",
-    "source_file": "Tanglab-2026.5.18-website-更新/Research Assistants-Wang.docx"
+    "source_file": "Tanglab-2026.5.18-website-更新/Research Assistants-Wang.docx",
+    "experience_en": "MSc. Freie Universität Berlin",
+    "experience_zh": "硕士（MSc.），Freie Universität Berlin",
+    "name_en": "Wei-Ying Wang",
+    "name_zh": "王炜滢"
   },
   {
     "name": "Chuheng Jiang",
     "section": "Research Assistant",
-    "experience": "New York University",
     "email": "cj2353@nyu.edu",
-    "photo": "chuheng-jiang.jpg"
+    "photo": "chuheng-jiang.jpg",
+    "experience_en": "New York University",
+    "experience_zh": "New York University",
+    "name_en": "Chuheng Jiang",
+    "name_zh": "姜楚珩"
   },
   {
     "name": "Zai-Han Li",
     "section": "Postdoc",
-    "experience": "Ph.D., University of Chinese Academy of Sciences",
     "email": "lizaihann@outlook.com",
-    "photo": "zai-han-li.jpeg"
+    "photo": "zai-han-li.jpeg",
+    "experience_en": "Ph.D., University of Chinese Academy of Sciences",
+    "experience_zh": "博士（Ph.D.），中国科学院大学",
+    "name_en": "Zai-Han Li",
+    "name_zh": "李在涵"
   }
 ]
