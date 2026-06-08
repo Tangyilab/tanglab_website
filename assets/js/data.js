@@ -17,7 +17,7 @@ window.DATA = {
     },
     "pi": {
       "name_en": "Yi Tang, MD, PhD",
-      "name_zh": "唐毅 医学博士",
+      "name_zh": "唐毅 MD, PhD",
       "title_en": "Chief Neurologist, Professor in Neurology",
       "title_zh": "主任医师，神经病学教授",
       "affiliation_en": "Department of Neurology, Xuanwu Hospital, Capital Medical University, Beijing, China",
@@ -104,7 +104,7 @@ window.DATA = {
         {
           "period": "2021–present",
           "detail_en": "President, National Center for Cognitive Disorders, National Health Commission of the PRC",
-          "detail_zh": "组长，国家卫生健康委认知障碍疾病专科能力建设项目"
+          "detail_zh": "专家组组长，国家卫生健康委认知障碍疾病专科能力建设项目"
         },
         {
           "period": "2017–present",
