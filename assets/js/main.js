@@ -165,7 +165,8 @@ function renderAbout() {
     `<p class="lead">${esc(L(a.lab, "intro"))}</p>
      <p style="color:var(--muted)"><b>${affLabel}:</b></p>
      <ul style="color:var(--muted);margin:4px 0 0 20px">${affs.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
-  const tl = (arr) => `<ul class="timeline">${arr.map(i => `<li><div class="per">${esc(i.period)}</div><div class="det">${esc(L(i, "detail"))}</div></li>`).join("")}</ul>`;
+  const per = (p) => LANG === "zh" ? String(p).replace(/present/i, "至今") : p;
+  const tl = (arr) => `<ul class="timeline">${arr.map(i => `<li><div class="per">${esc(per(i.period))}</div><div class="det">${esc(L(i, "detail"))}</div></li>`).join("")}</ul>`;
   $("#pi-block").innerHTML =
     `<div class="pi-card">
       <div><img src="${esc(pi.photo)}" alt="${esc(L(pi, "name"))}" onerror="this.style.display='none'"></div>
