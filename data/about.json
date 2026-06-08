@@ -23,7 +23,7 @@
     "email": "tangyi@xwhosp.org",
     "photo": "assets/people/yi-tang.jpeg",
     "bio_en": "Prof. Yi Tang received his Ph.D. and M.D. from Peking Union Medical College and conducted postdoctoral research at Cornell University Medical College. He is now the Executive Vice Dean of Xuanwu Hospital, Capital Medical University. Prof. Tang is dedicated to advancing research on Alzheimer's disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
-    "bio_zh": "唐毅教授于北京协和医学院获得医学博士学位，并在美国康奈尔大学医学院从事博士后研究。现任首都医科大学宣武医院常务副院长。唐教授长期致力于阿尔茨海默病及相关认知障碍的研究，聚焦其发病机制与早期干预策略。",
+    "bio_zh": "唐毅教授于北京协和医学院获得理学博士（Ph.D.）与医学博士（M.D.）学位，并在美国康奈尔大学医学院从事博士后研究。现任首都医科大学宣武医院常务副院长。唐教授长期致力于阿尔茨海默病及相关认知障碍的研究，聚焦其发病机制与早期干预策略。",
     "education": [
       {
         "period": "2007–08",
@@ -38,12 +38,12 @@
       {
         "period": "2001–04",
         "detail_en": "Ph.D., Institute of Basic Medical Sciences, PUMC",
-        "detail_zh": "博士（Ph.D.），北京协和医学院基础医学研究所"
+        "detail_zh": "理学博士（Ph.D.），北京协和医学院基础医学研究所"
       },
       {
         "period": "2001–06",
         "detail_en": "M.D.–Ph.D. program in PUMC, supported by China Medical Board (CMB)",
-        "detail_zh": "北京协和医学院医学博士—哲学博士（M.D.–Ph.D.）项目，获美国中华医学基金会（CMB）资助"
+        "detail_zh": "北京协和医学院医学博士（M.D.）—理学博士（Ph.D.）项目，获美国中华医学基金会（CMB）资助"
       },
       {
         "period": "1995–2001",
