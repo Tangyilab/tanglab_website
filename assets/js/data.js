@@ -246,7 +246,7 @@ window.DATA = {
       "photo": "yi-tang.jpeg",
       "source_file": "3.People/1.Principal Investigators/Yi Tang.docx",
       "experience_en": "Prof. Yi Tang received his Ph.D. and M.D. from the Peking Union Medical College, and conducted the postdoctoral research in the Cornell University Medical College. He is now the Executive Vice Dean of the Xuanwu Hospital Capital Medical University. Prof. Tang are dedicated to advancing research on Alzheimer’s disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
-      "experience_zh": "Prof. Yi Tang received his Ph.D. and M.D. from the Peking Union Medical College, and conducted the postdoctoral research in the Cornell University Medical College. He is now the Executive Vice Dean of the Xuanwu Hospital Capital Medical University. Prof. Tang are dedicated to advancing research on Alzheimer’s disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
+      "experience_zh": "Prof. Yi Tang received his Ph.D. and M.D. from the Peking Union Medical College, and conducted the postdoctoral research in the Cornell University Medical College. He is now the Executive Vice Dean of the Xuanwu Hospital 首都医科大学. Prof. Tang are dedicated to advancing research on Alzheimer’s disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
       "name_en": "Yi Tang",
       "name_zh": "唐毅"
     },
@@ -364,7 +364,7 @@ window.DATA = {
       "photo": "dan-li.jpeg",
       "source_file": "3.People/4.Students/Dan Li.docx",
       "experience_en": "Ph.D. student, Hebei Medical University",
-      "experience_zh": "博士研究生，Hebei Medical University",
+      "experience_zh": "博士研究生，河北医科大学",
       "name_en": "Dan Li",
       "name_zh": "李丹"
     },
@@ -375,7 +375,7 @@ window.DATA = {
       "photo": "han-chen-yang.jpg",
       "source_file": "3.People/4.Students/Han-Chen Yang.docx",
       "experience_en": "Ph.D. student, Capital Medical University",
-      "experience_zh": "博士研究生，Capital Medical University",
+      "experience_zh": "博士研究生，首都医科大学",
       "name_en": "Han-Chen Yang",
       "name_zh": "杨翰晨"
     },
@@ -386,7 +386,7 @@ window.DATA = {
       "photo": "junjie-hu.jpeg",
       "source_file": "3.People/4.Students/Junjie Hu.docx",
       "experience_en": "Graduate student, Capital Medical University",
-      "experience_zh": "研究生，Capital Medical University",
+      "experience_zh": "研究生，首都医科大学",
       "name_en": "Junjie Hu",
       "name_zh": "胡俊杰"
     },
@@ -397,7 +397,7 @@ window.DATA = {
       "photo": "pei-yang-gao.jpeg",
       "source_file": "3.People/4.Students/Pei-Yang Gao.docx",
       "experience_en": "Ph.D. student, Capital Medical University",
-      "experience_zh": "博士研究生，Capital Medical University",
+      "experience_zh": "博士研究生，首都医科大学",
       "name_en": "Pei-Yang Gao",
       "name_zh": "高佩阳"
     },
@@ -408,7 +408,7 @@ window.DATA = {
       "photo": "rui-yang-li.jpeg",
       "source_file": "3.People/4.Students/Rui-Yang Li.docx",
       "experience_en": "Ph.D. student, Capital Medical University",
-      "experience_zh": "博士研究生，Capital Medical University",
+      "experience_zh": "博士研究生，首都医科大学",
       "name_en": "Rui-Yang Li",
       "name_zh": "李瑞洋"
     },
@@ -419,7 +419,7 @@ window.DATA = {
       "photo": "run-di.jpg",
       "source_file": "3.People/4.Students/Run Di.docx",
       "experience_en": "Ph.D. student, Capital Medical University",
-      "experience_zh": "博士研究生，Capital Medical University",
+      "experience_zh": "博士研究生，首都医科大学",
       "name_en": "Run Di",
       "name_zh": "狄润"
     },
@@ -430,7 +430,7 @@ window.DATA = {
       "photo": "yunsi-yin.jpg",
       "source_file": "3.People/4.Students/Student-Yunsi Yin.docx",
       "experience_en": "Ph.D. student, Capital Medical University",
-      "experience_zh": "博士研究生，Capital Medical University",
+      "experience_zh": "博士研究生，首都医科大学",
       "name_en": "Yunsi Yin",
       "name_zh": "尹筠思"
     },
@@ -441,7 +441,7 @@ window.DATA = {
       "photo": "jiang-ting-li.jpeg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Jiang-ting Li.docx",
       "experience_en": "Ph.D. student, Capital Medical University",
-      "experience_zh": "博士研究生，Capital Medical University",
+      "experience_zh": "博士研究生，首都医科大学",
       "name_en": "Jiang-Ting Li",
       "name_zh": "李江婷"
     },
@@ -452,7 +452,7 @@ window.DATA = {
       "email": "liuqianying22@163.com",
       "photo": "qianying-liu.jpeg",
       "experience_en": "Ph.D. student, Capital Medical University",
-      "experience_zh": "博士研究生，Capital Medical University",
+      "experience_zh": "博士研究生，首都医科大学",
       "name_en": "Qian-Ying Liu",
       "name_zh": "刘倩影"
     },
@@ -463,7 +463,7 @@ window.DATA = {
       "photo": "weiyi-song.jpeg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Weiyi Song.docx",
       "experience_en": "Undergraduate student, Capital Medical University",
-      "experience_zh": "本科生，Capital Medical University",
+      "experience_zh": "本科生，首都医科大学",
       "name_en": "Weiyi Song",
       "name_zh": "宋维屹"
     },
@@ -474,7 +474,7 @@ window.DATA = {
       "photo": "yu-sen-deng.jpeg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Yu-sen Deng.docx",
       "experience_en": "Ph.D. student, Hebei Medical University",
-      "experience_zh": "博士研究生，Hebei Medical University",
+      "experience_zh": "博士研究生，河北医科大学",
       "name_en": "Yu-Sen Deng",
       "name_zh": "邓钰森"
     },
@@ -485,7 +485,7 @@ window.DATA = {
       "photo": "yu-huan-cheng.jpeg",
       "source_file": "Tanglab-2026.5.18-website-更新/Student-Cheng .docx",
       "experience_en": "Graduate student, Capital Medical University",
-      "experience_zh": "研究生，Capital Medical University",
+      "experience_zh": "研究生，首都医科大学",
       "name_en": "Yu-Huan Cheng",
       "name_zh": "程宇寰"
     },
@@ -496,7 +496,7 @@ window.DATA = {
       "email": "pangmiao123@outlook.com",
       "photo": "miao-pang.jpeg",
       "experience_en": "Ph.D. student, Capital Medical University",
-      "experience_zh": "博士研究生，Capital Medical University",
+      "experience_zh": "博士研究生，首都医科大学",
       "name_en": "Miao Pang",
       "name_zh": "庞淼"
     },
@@ -507,7 +507,7 @@ window.DATA = {
       "photo": "lanzhou-xu.png",
       "source_file": "Tanglab-2026.5.18-website-更新/Student-Xu.docx",
       "experience_en": "Graduate student, Capital Medical University",
-      "experience_zh": "研究生，Capital Medical University",
+      "experience_zh": "研究生，首都医科大学",
       "name_en": "Lanzhou Xu",
       "name_zh": "许兰舟"
     },
@@ -518,7 +518,7 @@ window.DATA = {
       "photo": "xing-can-xu.jpg",
       "source_file": "Tanglab-2025.9.19增加内容/People/Xing-Can Xu.docx",
       "experience_en": "Graduate student, Capital Medical University",
-      "experience_zh": "研究生，Capital Medical University",
+      "experience_zh": "研究生，首都医科大学",
       "name_en": "Xing-Can Xu",
       "name_zh": "徐星灿"
     },
