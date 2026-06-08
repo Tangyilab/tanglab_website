@@ -772,7 +772,9 @@ window.DATA = {
         "Chen O",
         "Tang Y"
       ],
-      "journal": "J Neurosci. 2026 Mar 4;46(9):e1251252026."
+      "journal": "J Neurosci. 2026 Mar 4;46(9):e1251252026.",
+      "featured": true,
+      "featured_rank": 0
     },
     {
       "citation": "Li A, Xing Y, Xie S, et al. Simulated default mode network electric fields are associated with cognitive response to transcranial alternating current stimulation in mild Alzheimer's disease. Brain Stimul. 2026 Mar-Apr;19(2):103056.",
@@ -838,7 +840,7 @@ window.DATA = {
       ],
       "journal": "Alzheimers Dement. 2026 Jan;22(1):e71084.",
       "featured": true,
-      "featured_rank": 0
+      "featured_rank": 1
     },
     {
       "citation": "Zhao B, Geng C, Zhou S, et al. Inflammation as a mediator of air pollution's role in Alzheimer's disease and related dementias. J Alzheimers Dis. 2026 Feb;109(4):1649-1662.",
@@ -919,7 +921,7 @@ window.DATA = {
       ],
       "journal": "Cell. 2026 Jan 22;189(2):640-658.e22.",
       "featured": true,
-      "featured_rank": 1
+      "featured_rank": 2
     },
     {
       "citation": "Zhao B, Zhou S, Wei T, et al. Lost in Space and Thought: Navigating the Cognitive Map in Alzheimer's Disease. Neurosci Bull. 2026 Mar;42(3):697-711.",
@@ -1493,7 +1495,7 @@ window.DATA = {
       ],
       "journal": "Radiology. 2025 Jun;315(3):e241463.",
       "featured": true,
-      "featured_rank": 2
+      "featured_rank": 3
     },
     {
       "citation": "Zang GY, Rao K, Wu J, et al. Digital Therapeutics for Cognitive Impairment: Exploring Innovations, Challenges, and Future Prospects. J Med Internet Res. 2025 Jun 12;27:e73689.",
@@ -1936,7 +1938,7 @@ window.DATA = {
       ],
       "journal": "Alzheimers Dement. 2024 Sep 23. doi: 10.1002/alz.14254. Epub ahead of print. PMID: 39312279.",
       "featured": true,
-      "featured_rank": 3
+      "featured_rank": 4
     },
     {
       "citation": "Wang T, Yan S, Shan Y, et al. Altered Neuronal Activity Patterns of the Prefrontal Cortex in Alzheimer's Disease After Transcranial Alternating Current Stimulation: A Resting-State fMRI Study. J Alzheimers Dis. 2024;101(3):901-912.",
@@ -2474,7 +2476,7 @@ window.DATA = {
       ],
       "journal": "Alzheimers Dement. 2023 Aug;19(8):3327-3338. doi: 10.1002/alz.12971",
       "featured": true,
-      "featured_rank": 4
+      "featured_rank": 5
     },
     {
       "citation": "Qin Q, Wang M, Li H, Xu ZD, Tang Y. Editorial: The role of microglia in the pathogenesis of neurodegenerative diseases. Front Aging Neurosci. 2023 Jan 6:14:1105896. doi: 10.3389/fnagi.2022.1105896.",
@@ -2660,7 +2662,7 @@ window.DATA = {
       ],
       "journal": "Mol Neurodegener. 2022 Jun 3;17(1):40. doi: 10.1186/s13024-022-00542-y.",
       "featured": true,
-      "featured_rank": 5
+      "featured_rank": 6
     },
     {
       "citation": "Wang YY, Deng YS, Dai SK, Mi TW, Li RY, Liu PP, Liu C, HeBD, He XC, Du HZ, Yang HC, Tang Y, Liu CM, Teng ZQ. Loss of microglial EED impairs synapse density, learning and memory. Mol Psychiatry. 2022 Jul; 27(7):2999-3009. doi: 10.1038/s41380-022-01576-w.",
@@ -2687,7 +2689,7 @@ window.DATA = {
       ],
       "journal": "Mol Psychiatry. 2022 Jul;27(7):2999-3009.",
       "featured": true,
-      "featured_rank": 6
+      "featured_rank": 7
     },
     {
       "citation": "Wei T, Guo Z, Wang Z, Li C, Zhu W, Zheng Y, Yin Y, Mi Y, Xia X, Hou H, Tang Y. Five Major Psychiatric Disorders and Alzheimer's Disease: A Bidirectional Mendelian Randomization Study. J Alzheimers Dis. 2022 Mar 31. doi: 10.3233/JAD-220010.",
@@ -2829,7 +2831,7 @@ window.DATA = {
       ],
       "journal": "Alzheimers Dement. 2022 Jun;18(6):1085-1099.",
       "featured": true,
-      "featured_rank": 7
+      "featured_rank": 8
     },
     {
       "citation": "Wang Z, Zhu W, Xing Y, Jia J, Tang Y. B vitamins and prevention of cognitive decline and incident dementia: a systematic review and meta-analysis. Nutr Rev. 2022 Mar 10;80(4):931-949.",
@@ -3153,7 +3155,7 @@ window.DATA = {
       ],
       "journal": "Lancet Public Health. 2020;5(12):e661-e671.",
       "featured": true,
-      "featured_rank": 8
+      "featured_rank": 9
     },
     {
       "citation": "Jia L, Xu H, Chen S, Wang X, Yang J, Gong M, Wei C, Tang Y, Qu Q, Chu L, Shen L, Zhou C, Wang Q, Zhao T, Zhou A, Li Y, Li F, Li Y, Jin H, Qin Q, Jiao H, Li Y, Zhang H, Lyu D, Shi Y, Song Y, Jia J. The APOE ε4 exerts differential effects on familial and other subtypes of Alzheimer's disease. Alzheimers Dement. 2020. doi: 10.1002/alz.12153.",
@@ -3262,7 +3264,7 @@ window.DATA = {
       ],
       "journal": "Alzheimers Dement (N Y). 2020 Apr 7;6(1):e12005.",
       "featured": true,
-      "featured_rank": 9
+      "featured_rank": 10
     },
     {
       "citation": "Xie B, Shi X, Xing Y, Tang Y. Association between atherosclerosis and Alzheimer's disease: A systematic review and meta-analysis. Brain Behav. 2020;10(4):e01601.",
@@ -3382,7 +3384,7 @@ window.DATA = {
       ],
       "journal": "Lancet Neurol. 2020 Jan;19(1):81-92.",
       "featured": true,
-      "featured_rank": 10
+      "featured_rank": 11
     },
     {
       "citation": "Wang H, Fan Z, Shi C, Xiong L, Zhang H, Li T, Sun Y, Guo Q, Tian Y, Qu Q, Zhang N, Cheng Z, Wu L, Wu D, Han Z, Tian J, Xie H, Tan S, Gao J, Luo B, Pan X, Peng G, Qin B, Tang Y, Wang K, Wang T, Zhang J, Zhao Q, Gauthier S, Yu X. Consensus statement on the neurocognitive outcomes for early detection of mild cognitive impairment and Alzheimer dementia from the Chinese Neuropsychological Normative (CN-NORM) Project. Journal of global health. 2019; 9(2): 020320",
