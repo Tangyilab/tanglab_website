@@ -134,9 +134,13 @@ function renderHome() {
     ? '理解并战胜<br><span style="white-space:nowrap">阿尔茨海默病与血管性认知障碍</span>'
     : 'Understanding and defeating<br><span style="white-space:nowrap">Alzheimer\'s disease &amp; vascular cognitive impairment</span>';
   const hp = $(".hero .wrap > p");
-  if (hp) hp.textContent = LANG === "zh"
-    ? "唐毅课题组整合分子生物学、电生理学、神经影像与流行病学，推动认知障碍的早期诊断与干预。"
-    : "The Tang Lab integrates molecular biology, electrophysiology, neuroimaging, and epidemiology to advance the early diagnosis and intervention of cognitive disorders.";
+  if (hp) {
+    if (LANG === "zh") {
+      hp.innerHTML = '<span class="hero-sub-zh">唐毅课题组整合分子生物学、电生理学、神经影像与流行病学，推动认知障碍的早期诊断与干预。</span>';
+    } else {
+      hp.textContent = "The Tang Lab integrates molecular biology, electrophysiology, neuroimaging, and epidemiology to advance the early diagnosis and intervention of cognitive disorders.";
+    }
+  }
   const cta = document.querySelectorAll(".hero .cta a");
   if (cta[0]) cta[0].textContent = LANG === "zh" ? "了解研究" : "Explore Research";
   if (cta[1]) cta[1].textContent = LANG === "zh" ? "加入我们" : "Join Us";
