@@ -50,7 +50,7 @@ const UI = {
   pub: {
     note: {
       en: 'Showing selected high-impact publications. For the complete and up-to-date list, please visit Prof. Tang\'s <a href="https://scholar.google.com/citations?hl=en&user=0eZyhbcAAAAJ" target="_blank" rel="noopener">Google Scholar</a> profile.',
-      zh: '此处展示精选高影响力论文。完整及最新论著列表，请访问唐毅教授的 <a href="https://scholar.google.com/citations?hl=en&user=0eZyhbcAAAAJ" target="_blank" rel="noopener">Google Scholar</a> 主页。'
+      zh: '完整及最新论著列表，请访问唐毅教授的 <a href="https://scholar.google.com/citations?hl=en&user=0eZyhbcAAAAJ" target="_blank" rel="noopener">Google Scholar</a> 主页。'
     }
   },
   join: { benefits: { en: "Benefits", zh: "福利待遇" }, location: { en: "Location", zh: "工作地点" }, apply: { en: "How to apply", zh: "申请方式" } },
