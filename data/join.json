@@ -1,6 +1,6 @@
 {
-  "intro_en": "The Tang Lab is affiliated with the Department of Neurology, Xuanwu Hospital, Capital Medical University and the Chinese Institute for Brain Research, Beijing (CIBR). We are continuously looking for motivated researchers passionate about Alzheimer's disease and cognitive disorders to join our interdisciplinary team.",
-  "intro_zh": "唐毅课题组依托首都医科大学宣武医院神经内科及北京脑科学与类脑研究所（CIBR），长期招募对阿尔茨海默病及认知障碍研究充满热情的科研人才，欢迎加入我们的跨学科团队。",
+  "intro_en": "The Tang Lab is affiliated with Xuanwu Hospital, Capital Medical University and the Chinese Institute for Brain Research, Beijing (CIBR). We are continuously looking for motivated researchers passionate about Alzheimer's disease and cognitive disorders to join our interdisciplinary team.",
+  "intro_zh": "唐毅课题组依托首都医科大学宣武医院及北京脑科学与类脑研究所（CIBR），长期招募对阿尔茨海默病及认知障碍研究充满热情的科研人才，欢迎加入我们的跨学科团队。",
   "positions": [
     {
       "role_en": "Postdoctoral Fellows",
@@ -87,5 +87,8 @@
   "location_zh": "北京市昌平区中关村生命科学园医科路9号院3号楼——北京脑科学与类脑研究所",
   "apply_en": "Please send your CV and supporting materials in PDF format to the emails below, with the subject line \"Name + Position\".",
   "apply_zh": "请将个人简历及相关证明材料以 PDF 格式发送至以下邮箱，邮件标题注明「姓名 + 应聘岗位」。",
-  "emails": ["tangyi@cibr.ac.cn", "chenouyang@cibr.ac.cn"]
+  "emails": [
+    "tangyi@cibr.ac.cn",
+    "chenouyang@cibr.ac.cn"
+  ]
 }

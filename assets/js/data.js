@@ -20,8 +20,8 @@ window.DATA = {
       "name_zh": "唐毅 MD, PhD",
       "title_en": "Chief Neurologist, Professor in Neurology",
       "title_zh": "主任医师，神经病学教授",
-      "affiliation_en": "Department of Neurology, Xuanwu Hospital, Capital Medical University, Beijing, China",
-      "affiliation_zh": "首都医科大学宣武医院神经内科，北京，中国",
+      "affiliation_en": "Xuanwu Hospital, Capital Medical University, Beijing, China",
+      "affiliation_zh": "首都医科大学宣武医院，北京，中国",
       "email": "tangyi@xwhosp.org",
       "photo": "assets/people/yi-tang.jpeg",
       "bio_en": "Prof. Yi Tang received his Ph.D. and M.D. from Peking Union Medical College and conducted postdoctoral research at Cornell University Medical College. He is now the Executive Vice Dean of Xuanwu Hospital, Capital Medical University. Prof. Tang is dedicated to advancing research on Alzheimer's disease and related cognitive disorders, focusing on their pathogenesis and early intervention strategies.",
@@ -145,8 +145,8 @@ window.DATA = {
     }
   },
   "join": {
-    "intro_en": "The Tang Lab is affiliated with the Department of Neurology, Xuanwu Hospital, Capital Medical University and the Chinese Institute for Brain Research, Beijing (CIBR). We are continuously looking for motivated researchers passionate about Alzheimer's disease and cognitive disorders to join our interdisciplinary team.",
-    "intro_zh": "唐毅课题组依托首都医科大学宣武医院神经内科及北京脑科学与类脑研究所（CIBR），长期招募对阿尔茨海默病及认知障碍研究充满热情的科研人才，欢迎加入我们的跨学科团队。",
+    "intro_en": "The Tang Lab is affiliated with Xuanwu Hospital, Capital Medical University and the Chinese Institute for Brain Research, Beijing (CIBR). We are continuously looking for motivated researchers passionate about Alzheimer's disease and cognitive disorders to join our interdisciplinary team.",
+    "intro_zh": "唐毅课题组依托首都医科大学宣武医院及北京脑科学与类脑研究所（CIBR），长期招募对阿尔茨海默病及认知障碍研究充满热情的科研人才，欢迎加入我们的跨学科团队。",
     "positions": [
       {
         "role_en": "Postdoctoral Fellows",

@@ -29,7 +29,7 @@ const UI = {
   footer: {
     tagline: { en: "Early diagnosis and intervention of Alzheimer's disease and vascular cognitive impairment.", zh: "阿尔茨海默病与血管性认知障碍的早期诊断与干预。" },
     affHead: { en: "Affiliation", zh: "所属机构" },
-    affBody: { en: "Department of Neurology, Xuanwu Hospital,<br>Capital Medical University<br>Chinese Institute for Brain Research, Beijing", zh: "首都医科大学宣武医院神经内科<br>北京脑科学与类脑研究所" },
+    affBody: { en: "Xuanwu Hospital, Capital Medical University<br>Chinese Institute for Brain Research, Beijing", zh: "首都医科大学宣武医院<br>北京脑科学与类脑研究所" },
     contact: { en: "Contact", zh: "联系方式" },
     rights: { en: "All rights reserved.", zh: "版权所有。" },
   },
