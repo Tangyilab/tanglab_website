@@ -2,3 +2,4 @@ data/people_raw.json
 .DS_Store
 data/publications.json.bak
 assets/people_orig/
+.claude/

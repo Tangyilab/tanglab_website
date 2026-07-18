@@ -336,15 +336,15 @@ window.DATA = {
       "name_zh": "王晴钰"
     },
     {
-      "name": "Yuan-Yuan Chen",
+      "name": "Meng Ye",
       "section": "Postdoc",
-      "email": "chenyuannwu@163.com",
-      "photo": "yuan-yuan-chen.jpeg",
-      "source_file": "3.People/3.Postdocs/Yuan-Yuan Chen.docx",
-      "experience_en": "Ph.D., Northwest University",
-      "experience_zh": "博士（Ph.D.），西北大学",
-      "name_en": "Yuan-Yuan Chen",
-      "name_zh": "陈圆圆"
+      "email": "yemeng@cibe.ac.cn",
+      "photo": "mengye.jpg",
+      "source_file": "3.People/3.Postdocs/Meng Ye.docx",
+      "experience_en": "Ph.D., Captical medical university",
+      "experience_zh": "博士（Ph.D.），首都医科大学",
+      "name_en": "Meng Ye",
+      "name_zh": "叶梦"
     },
     {
       "name": "Shaofei Jiang",
@@ -565,17 +565,6 @@ window.DATA = {
       "experience_zh": "硕士（M.S.），Georgetown University",
       "name_en": "Yuan Gao",
       "name_zh": "高远"
-    },
-    {
-      "name": "Wei-Ying Wang",
-      "section": "Research Assistant",
-      "email": "wang.weiying@foxmail.com",
-      "photo": "wei-ying-wang.jpeg",
-      "source_file": "Tanglab-2026.5.18-website-更新/Research Assistants-Wang.docx",
-      "experience_en": "MSc. Freie Universität Berlin",
-      "experience_zh": "硕士（MSc.），Freie Universität Berlin",
-      "name_en": "Wei-Ying Wang",
-      "name_zh": "王炜滢"
     },
     {
       "name": "Chuheng Jiang",
