@@ -155,7 +155,7 @@ function renderHome() {
   const more = $("#home-research-more"); if (more) more.textContent = LANG === "zh" ? "查看完整研究方向 →" : "See full research overview →";
   $("#lab-intro").textContent = L(a.lab, "intro");
   $("#home-vision-text").textContent = L(a.lab, "vision");
-  $("#home-mission-text").innerHTML = esc(L(a.lab, "mission")).replace(/10年|10 years/g, "<strong>$&</strong>");
+  $("#home-mission-text").textContent = L(a.lab, "mission");
   $("#home-research").innerHTML = r.areas.map(x =>
     `<div class="card"><div class="ic">${x.icon}</div><h4>${esc(L(x, "title"))}</h4><p>${esc(L(x, "desc"))}</p></div>`).join("");
 }
