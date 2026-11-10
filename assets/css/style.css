@@ -105,12 +105,20 @@ h3{color:var(--blue-d);font-size:20px;margin:26px 0 12px;}
 @media(min-width:760px){.grid-horizontal{grid-template-columns:repeat(2,1fr);}}
 /* PI: always full width (single column), overriding the 2-col rule above */
 .grid-horizontal.grid-pi{grid-template-columns:1fr;}
-/* PI + Faculty share one uniform card height; long content scrolls inside */
+/* Default horizontal card height; long content scrolls inside */
 .person.horizontal{display:grid;grid-template-columns:200px 1fr;height:300px;}
 .person.horizontal .ph-wrap{aspect-ratio:auto;height:300px;}
 .person.horizontal .body{padding:20px 22px;display:flex;flex-direction:column;justify-content:center;overflow-y:auto;}
 .person.horizontal .nm{font-size:18px;}
 .person.horizontal .ex{font-size:14px;min-height:auto;margin:8px 0 10px;}
+/* Keep Faculty names visible when a profile needs more vertical space. */
+.person.horizontal.faculty-card .body{justify-content:flex-start;min-height:0;}
+.person.horizontal.faculty-card .body > *{flex-shrink:0;}
+@media(min-width:461px){
+  .person.horizontal.faculty-card{height:480px;}
+  .person.horizontal.faculty-card .ph-wrap{height:480px;}
+  .person.horizontal.faculty-card img[src$="chunjing-bao.jpeg"]{object-position:25% center;}
+}
 @media(max-width:460px){
   .person.horizontal{grid-template-columns:1fr;height:auto;}
   .person.horizontal .ph-wrap{aspect-ratio:1/1;height:auto;}
