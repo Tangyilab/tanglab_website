@@ -148,10 +148,14 @@ function renderHome() {
   const setTxt = (sel, en, zh) => { const el = $(sel); if (el) el.textContent = LANG === "zh" ? zh : en; };
   setTxt("#home-about-eyebrow", "About the Lab", "实验室简介");
   setTxt("#home-about-title", "Who We Are", "我们是谁");
+  setTxt("#home-vision-title", "Our Vision", "团队愿景");
+  setTxt("#home-mission-title", "Our Mission", "团队使命");
   setTxt("#home-research-eyebrow", "Research", "研究");
   setTxt("#home-research-title", "Our Focus Areas", "研究重点");
   const more = $("#home-research-more"); if (more) more.textContent = LANG === "zh" ? "查看完整研究方向 →" : "See full research overview →";
   $("#lab-intro").textContent = L(a.lab, "intro");
+  $("#home-vision-text").textContent = L(a.lab, "vision");
+  $("#home-mission-text").innerHTML = esc(L(a.lab, "mission")).replace(/10年|10 years/g, "<strong>$&</strong>");
   $("#home-research").innerHTML = r.areas.map(x =>
     `<div class="card"><div class="ic">${x.icon}</div><h4>${esc(L(x, "title"))}</h4><p>${esc(L(x, "desc"))}</p></div>`).join("");
 }

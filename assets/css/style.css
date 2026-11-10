@@ -75,6 +75,14 @@ h3{color:var(--blue-d);font-size:20px;margin:26px 0 12px;}
 .card h4{color:var(--blue-d);font-size:18px;margin-bottom:8px;}
 .card p{color:var(--muted);font-size:14.5px;}
 
+/* ---- Home vision & mission ---- */
+.home-purpose-grid{margin-top:32px;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);}
+.home-purpose{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--blue);border-radius:0 0 14px 14px;padding:28px;}
+.home-purpose h3{margin:0 0 12px;}
+.home-purpose p{color:var(--muted);line-height:1.85;}
+.home-purpose strong{color:var(--blue);font-weight:800;white-space:nowrap;}
+@media(max-width:760px){.home-purpose-grid{grid-template-columns:1fr;}}
+
 /* ---- People ---- */
 .people-group{margin-bottom:44px;}
 .people-group h3{border-bottom:2px solid var(--sky);padding-bottom:8px;margin-bottom:22px;}

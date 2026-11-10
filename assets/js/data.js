@@ -6,6 +6,10 @@ window.DATA = {
       "tagline_zh": "阿尔茨海默病与血管性认知障碍的早期诊断与干预",
       "intro_en": "Yi Tang's laboratory focuses on understanding the complex nature of Alzheimer's disease (AD) and vascular cognitive impairment (VCI). Our research integrates molecular biology, biochemistry, bioinformatics, electrophysiology, and behavioral analysis to uncover disease mechanisms and to develop strategies for early diagnosis and intervention.",
       "intro_zh": "唐毅课题组致力于探究阿尔茨海默病（AD）与血管性认知障碍（VCI）的复杂本质。我们整合分子生物学、生物化学、生物信息学、电生理学与行为学分析，揭示疾病机制，并发展早期诊断与干预策略。",
+      "vision_en": "To make Alzheimer's disease and related dementias effectively manageable, so they no longer place a major burden on patients, families, and society.",
+      "vision_zh": "让阿尔茨海默病和相关痴呆成为可以有效控制的疾病，不再成为患者、家庭和社会的重大困扰。",
+      "mission_en": "Through accurate, affordable, and efficient early screening and diagnostic systems, interventions tailored to different disease stages and mechanisms, and effective disease management systems, we aim to delay the onset of the moderate-to-severe stages of Alzheimer's disease and related dementias by 10 years.",
+      "mission_zh": "通过建立准确、经济、高效的早期筛查诊断体系，建立靶向疾病不同阶段和不同机制的干预方法，建立有效的疾病管理模式体系，将阿尔茨海默病和相关痴呆中重度阶段的到来推迟10年。",
       "affiliations_en": [
         "Xuanwu Hospital Capital Medical University, Beijing, China",
         "Chinese Institute for Brain Research (CIBR), Beijing, China"
@@ -338,7 +342,7 @@ window.DATA = {
     {
       "name": "Meng Ye",
       "section": "Postdoc",
-      "email": "yemeng@cibe.ac.cn",
+      "email": "yemeng0122@gmail.com",
       "photo": "mengye.jpg",
       "source_file": "3.People/3.Postdocs/Meng Ye.docx",
       "experience_en": "Ph.D., Captical medical university",
