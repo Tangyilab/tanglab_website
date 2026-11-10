@@ -85,6 +85,57 @@
     ]
   },
   {
+    "name": "Chunjing Evangeline Bao",
+    "section": "Faculty",
+    "email": "bao.chunjing@xwhosp.org",
+    "photo": "chunjing-bao.jpeg",
+    "source_file": "26.11.10/Tanglab Website Template-bcj.docx",
+    "experience_en": "",
+    "experience_zh": "",
+    "name_en": "Chunjing Evangeline Bao",
+    "name_zh": "包纯净",
+    "details": [
+      {
+        "heading_en": "Position",
+        "heading_zh": "职位",
+        "items_en": [
+          "Associate Professor, Department of Neurology, Xuanwu Hospital, Capital Medical University"
+        ],
+        "items_zh": [
+          "副教授，首都医科大学宣武医院神经内科"
+        ]
+      },
+      {
+        "heading_en": "Education Experience",
+        "heading_zh": "教育经历",
+        "items_en": [
+          "Aug 2018 – Jun 2023, Ph.D., Pathology, School of Medicine, Duke University",
+          "Aug 2018 – Jun 2023, Certificate in Cellular and Molecular Biology Program, School of Medicine, Duke University",
+          "Aug 2018 – Jun 2023, Innovation and Entrepreneurship Certificate, Fuqua School of Business, Duke University",
+          "Sep 2014 – Jun 2018, B.S., Chu Ko-Chen Honor College, Zhejiang University"
+        ],
+        "items_zh": [
+          "2018年8月 – 2023年6月，杜克大学医学院，病理学博士（Ph.D.）",
+          "2018年8月 – 2023年6月，杜克大学医学院，细胞与分子生物学项目证书",
+          "2018年8月 – 2023年6月，杜克大学富卡商学院，创新与创业证书",
+          "2014年9月 – 2018年6月，浙江大学竺可桢学院，理学学士（B.S.）"
+        ]
+      },
+      {
+        "heading_en": "Professional & Academic Experience",
+        "heading_zh": "工作与学术经历",
+        "items_en": [
+          "Aug 2026 – Present, Associate Professor, Department of Neurology, Xuanwu Hospital, Capital Medical University",
+          "Jul 2023 – Aug 2026, Principal Associate, Roche R&D Center"
+        ],
+        "items_zh": [
+          "2026年8月 – 至今，首都医科大学宣武医院神经内科，副教授",
+          "2023年7月 – 2026年8月，罗氏研发中心，Principal Associate"
+        ]
+      }
+    ]
+  },
+  {
     "name": "Qingyu Wang",
     "section": "Postdoc",
     "email": "wqingyu1996@163.com",
@@ -314,17 +365,6 @@
     "experience_zh": "Johns Hopkins University School of Medicine, Dermatology Department",
     "name_en": "Jing Zhang",
     "name_zh": "张婧"
-  },
-  {
-    "name": "Qian-Ni Yang",
-    "section": "Research Assistant",
-    "email": "yangqianni@cibr.ac.cn",
-    "photo": "qian-ni-yang.jpeg",
-    "source_file": "Tanglab-2025.9.19增加内容/People/Qian-ni Yang.docx",
-    "experience_en": "Chinese Institute for Brain Research, Beijing",
-    "experience_zh": "北京脑科学与类脑研究所",
-    "name_en": "Qian-Ni Yang",
-    "name_zh": "杨茜妮"
   },
   {
     "name": "Yuan Gao",
