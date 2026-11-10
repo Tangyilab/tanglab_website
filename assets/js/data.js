@@ -255,47 +255,6 @@ window.DATA = {
       "name_zh": "唐毅"
     },
     {
-      "name": "Qi Qin",
-      "section": "Faculty",
-      "email": "qinqibao@126.com",
-      "photo": "qi-qin.jpeg",
-      "source_file": "Tanglab-2025.9.19增加内容/People/Qin QI.docx",
-      "experience_en": "",
-      "experience_zh": "",
-      "name_en": "Qi Qin",
-      "name_zh": "秦琪",
-      "details": [
-        {
-          "heading_en": "Education Experience",
-          "heading_zh": "教育经历",
-          "items_en": [
-            "Sep 2009 – Jun 2017, Harbin Medical University, Clinical Medicine (Successive postgraduate and doctoral programs of study) / Neurology, PhD"
-          ],
-          "items_zh": [
-            "2009年9月 – 2017年6月，哈尔滨医科大学，临床医学（本硕博连读）/ 神经病学，博士"
-          ]
-        },
-        {
-          "heading_en": "Professional & Academic Experience",
-          "heading_zh": "工作与学术经历",
-          "items_en": [
-            "Dec 2024 – Present, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Associate Chief Physician",
-            "Jan 2022 – Dec 2024, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Attending Physician",
-            "Aug 2017 – Dec 2021, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Physician",
-            "Aug 2014 – Aug 2016, Thomas Jefferson University, Department of Neurology and Neuroscience, Research Fellow",
-            "Jan 2014 – Jul 2014, I.M. Sechenov First Moscow State Medical University, Department of Neurology, Research Fellow"
-          ],
-          "items_zh": [
-            "2024年12月 – 至今，首都医科大学宣武医院神经疾病创新中心，副主任医师",
-            "2022年1月 – 2024年12月，首都医科大学宣武医院神经疾病创新中心，主治医师",
-            "2017年8月 – 2021年12月，首都医科大学宣武医院神经疾病创新中心，医师",
-            "2014年8月 – 2016年8月，Thomas Jefferson University 神经病学与神经科学系，研究员",
-            "2014年1月 – 2014年7月，I.M. Sechenov First Moscow State Medical University 神经病学系，研究员"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Ouyang Chen",
       "section": "Faculty",
       "email": "chenouyang@xwhosp.org; chenouyang@cibr.ac.cn",
@@ -375,6 +334,47 @@ window.DATA = {
           "items_zh": [
             "2026年8月 – 至今，首都医科大学宣武医院神经内科，副教授",
             "2023年7月 – 2026年8月，罗氏研发中心，Principal Associate"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qi Qin",
+      "section": "Faculty",
+      "email": "qinqibao@126.com",
+      "photo": "qi-qin.jpeg",
+      "source_file": "Tanglab-2025.9.19增加内容/People/Qin QI.docx",
+      "experience_en": "",
+      "experience_zh": "",
+      "name_en": "Qi Qin",
+      "name_zh": "秦琪",
+      "details": [
+        {
+          "heading_en": "Education Experience",
+          "heading_zh": "教育经历",
+          "items_en": [
+            "Sep 2009 – Jun 2017, Harbin Medical University, Clinical Medicine (Successive postgraduate and doctoral programs of study) / Neurology, PhD"
+          ],
+          "items_zh": [
+            "2009年9月 – 2017年6月，哈尔滨医科大学，临床医学（本硕博连读）/ 神经病学，博士"
+          ]
+        },
+        {
+          "heading_en": "Professional & Academic Experience",
+          "heading_zh": "工作与学术经历",
+          "items_en": [
+            "Dec 2024 – Present, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Associate Chief Physician",
+            "Jan 2022 – Dec 2024, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Attending Physician",
+            "Aug 2017 – Dec 2021, Innovation Center for Neurological Disorders, Xuanwu Hospital, Capital Medical University, Physician",
+            "Aug 2014 – Aug 2016, Thomas Jefferson University, Department of Neurology and Neuroscience, Research Fellow",
+            "Jan 2014 – Jul 2014, I.M. Sechenov First Moscow State Medical University, Department of Neurology, Research Fellow"
+          ],
+          "items_zh": [
+            "2024年12月 – 至今，首都医科大学宣武医院神经疾病创新中心，副主任医师",
+            "2022年1月 – 2024年12月，首都医科大学宣武医院神经疾病创新中心，主治医师",
+            "2017年8月 – 2021年12月，首都医科大学宣武医院神经疾病创新中心，医师",
+            "2014年8月 – 2016年8月，Thomas Jefferson University 神经病学与神经科学系，研究员",
+            "2014年1月 – 2014年7月，I.M. Sechenov First Moscow State Medical University 神经病学系，研究员"
           ]
         }
       ]
