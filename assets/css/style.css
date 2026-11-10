@@ -115,8 +115,8 @@ h3{color:var(--blue-d);font-size:20px;margin:26px 0 12px;}
 .person.horizontal.faculty-card .body{justify-content:flex-start;min-height:0;}
 .person.horizontal.faculty-card .body > *{flex-shrink:0;}
 @media(min-width:461px){
-  .person.horizontal.faculty-card{height:480px;}
-  .person.horizontal.faculty-card .ph-wrap{height:480px;}
+  .person.horizontal.faculty-card{height:350px;}
+  .person.horizontal.faculty-card .ph-wrap{height:350px;}
   .person.horizontal.faculty-card img[src$="chunjing-bao.jpeg"]{object-position:25% center;}
 }
 @media(max-width:460px){
